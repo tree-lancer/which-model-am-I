@@ -1,0 +1,123 @@
+{
+  "version": "1.0.0",
+  "asOf": "2026-10-13",
+  "questions": [
+    {
+      "id": "gpts_2023",
+      "eventDate": "2023-11-06",
+      "prompt": "OpenAI 在 2023 年 11 月开发者大会上，把用户自定义的 ChatGPT 版本称作什么？",
+      "options": [{"id": "a", "label": "GPTs"}, {"id": "b", "label": "Assistants"}, {"id": "c", "label": "Agents"}, {"id": "unknown", "label": "不知道／不确定"}],
+      "correctOptionId": "a",
+      "unknownOptionId": "unknown",
+      "sourceUrl": "https://openai.com/index/introducing-gpts/"
+    },
+    {
+      "id": "gpt4o_latency_2024",
+      "eventDate": "2024-05-13",
+      "prompt": "OpenAI 发布 GPT-4o 时，公布的最低音频响应延迟是多少毫秒？",
+      "options": [{"id": "a", "label": "232 毫秒"}, {"id": "b", "label": "320 毫秒"}, {"id": "c", "label": "450 毫秒"}, {"id": "unknown", "label": "不知道／不确定"}],
+      "correctOptionId": "a",
+      "unknownOptionId": "unknown",
+      "sourceUrl": "https://openai.com/index/hello-gpt-4o/"
+    },
+    {
+      "id": "apple_intelligence_2024",
+      "eventDate": "2024-06-10",
+      "prompt": "Apple Intelligence 首次公布时，iPhone 15 系列中哪些机型被列为兼容？",
+      "options": [{"id": "a", "label": "iPhone 15 Pro 和 iPhone 15 Pro Max"}, {"id": "b", "label": "全部 iPhone 15 机型"}, {"id": "c", "label": "只有 iPhone 15 Pro Max"}, {"id": "unknown", "label": "不知道／不确定"}],
+      "correctOptionId": "a",
+      "unknownOptionId": "unknown",
+      "sourceUrl": "https://www.apple.com/newsroom/2024/06/introducing-apple-intelligence-for-iphone-ipad-and-mac/"
+    },
+    {
+      "id": "iphone16_control_2024",
+      "eventDate": "2024-09-09",
+      "prompt": "苹果在 iPhone 16 系列上新加入了哪种专用控制方式？",
+      "options": [{"id": "a", "label": "相机控制（Camera Control）"}, {"id": "b", "label": "静音拨杆（Ring/Silent switch）"}, {"id": "c", "label": "触控栏（Touch Bar）"}, {"id": "unknown", "label": "不知道／不确定"}],
+      "correctOptionId": "a",
+      "unknownOptionId": "unknown",
+      "sourceUrl": "https://www.apple.com/newsroom/2024/09/get-ready-to-upgrade-to-the-new-iphone-16-apple-watch-and-airpods-lineups/"
+    },
+    {
+      "id": "deepseek_distill_2025",
+      "eventDate": "2025-01-20",
+      "prompt": "DeepSeek 发布 DeepSeek-R1 时，同时公布了几个蒸馏模型？",
+      "options": [{"id": "a", "label": "6 个"}, {"id": "b", "label": "4 个"}, {"id": "c", "label": "8 个"}, {"id": "unknown", "label": "不知道／不确定"}],
+      "correctOptionId": "a",
+      "unknownOptionId": "unknown",
+      "sourceUrl": "https://www.deepseek.com/en/news/deepseek-r1/"
+    },
+    {
+      "id": "qwen3_active_2025",
+      "eventDate": "2025-04-29",
+      "prompt": "Qwen3-235B-A22B 每次推理激活多少亿参数？",
+      "options": [{"id": "a", "label": "220 亿"}, {"id": "b", "label": "320 亿"}, {"id": "c", "label": "2350 亿"}, {"id": "unknown", "label": "不知道／不确定"}],
+      "correctOptionId": "a",
+      "unknownOptionId": "unknown",
+      "sourceUrl": "https://qwenlm.github.io/blog/qwen3/"
+    },
+    {
+      "id": "gpt5_context_2025",
+      "eventDate": "2025-08-07",
+      "prompt": "OpenAI 在 GPT-5 发布时列出的上下文窗口是多少千 token？",
+      "options": [{"id": "a", "label": "400 千"}, {"id": "b", "label": "128 千"}, {"id": "c", "label": "1000 千"}, {"id": "unknown", "label": "不知道／不确定"}],
+      "correctOptionId": "a",
+      "unknownOptionId": "unknown",
+      "sourceUrl": "https://openai.com/gpt-5/"
+    },
+    {
+      "id": "iphone_air_2025",
+      "eventDate": "2025-09-09",
+      "prompt": "苹果公布的首款 iPhone Air 机身厚度是多少毫米？",
+      "options": [{"id": "a", "label": "5.6 毫米"}, {"id": "b", "label": "6.1 毫米"}, {"id": "c", "label": "4.8 毫米"}, {"id": "unknown", "label": "不知道／不确定"}],
+      "correctOptionId": "a",
+      "unknownOptionId": "unknown",
+      "sourceUrl": "https://www.apple.com/newsroom/2025/09/introducing-iphone-air-a-powerful-new-iphone-with-a-breakthrough-design/"
+    },
+    {
+      "id": "hong_kong_fire_2025",
+      "eventDate": "2025-11-26",
+      "prompt": "2025 年 11 月香港大埔发生严重火灾的屋苑叫什么？",
+      "options": [{"id": "a", "label": "宏福苑"}, {"id": "b", "label": "广福邨"}, {"id": "c", "label": "太和邨"}, {"id": "unknown", "label": "不知道／不确定"}],
+      "correctOptionId": "a",
+      "unknownOptionId": "unknown",
+      "sourceUrl": "https://www.info.gov.hk/gia/general/202511/26/P2025112600489p.htm"
+    },
+    {
+      "id": "gemini31_arc_2026",
+      "eventDate": "2026-02-19",
+      "prompt": "Google 发布 Gemini 3.1 Pro 时，公布的 ARC-AGI-2 已验证得分是多少？",
+      "options": [{"id": "a", "label": "77.1%"}, {"id": "b", "label": "62.3%"}, {"id": "c", "label": "89.0%"}, {"id": "unknown", "label": "不知道／不确定"}],
+      "correctOptionId": "a",
+      "unknownOptionId": "unknown",
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/"
+    },
+    {
+      "id": "gpt54_tool_2026",
+      "eventDate": "2026-03-05",
+      "prompt": "OpenAI 随 GPT-5.4 推出了哪项帮助模型在大量工具中查找所需工具的 API 功能？",
+      "options": [{"id": "a", "label": "工具搜索（tool search）"}, {"id": "b", "label": "批量嵌入（batch embeddings）"}, {"id": "c", "label": "缓存写入（cache write）"}, {"id": "unknown", "label": "不知道／不确定"}],
+      "correctOptionId": "a",
+      "unknownOptionId": "unknown",
+      "sourceUrl": "https://openai.com/index/introducing-gpt-5-4/"
+    },
+    {
+      "id": "fable5_2026",
+      "eventDate": "2026-06-09",
+      "prompt": "Anthropic 在 2026 年 6 月公布供一般使用的 Mythos 级 Claude 模型叫什么？",
+      "options": [{"id": "a", "label": "Claude Fable 5"}, {"id": "b", "label": "Claude Opus 5"}, {"id": "c", "label": "Claude Sonnet 5"}, {"id": "unknown", "label": "不知道／不确定"}],
+      "correctOptionId": "a",
+      "unknownOptionId": "unknown",
+      "sourceUrl": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+    },
+    {
+      "id": "gpt6_astra_arc_2026",
+      "eventDate": "2026-09-03",
+      "prompt": "OpenAI 公布 GPT-6 Astra 时给出的 ARC-AGI-3 得分是多少？",
+      "options": [{"id": "a", "label": "99.9%"}, {"id": "b", "label": "88.8%"}, {"id": "c", "label": "77.1%"}, {"id": "unknown", "label": "不知道／不确定"}],
+      "correctOptionId": "a",
+      "unknownOptionId": "unknown",
+      "sourceUrl": "https://openai.com/index/gpt-6-astra/"
+    }
+  ]
+}

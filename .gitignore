@@ -1,0 +1,6 @@
+node_modules/
+.venv/
+.uv-cache/
+dist/
+.vercel/
+*.tsbuildinfo

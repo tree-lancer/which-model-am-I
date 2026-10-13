@@ -1,0 +1,19 @@
+---
+name: compile-questionnaire
+description: Refresh the model cutoff catalog, research dated factual questions, and compile a new version of this repository's model identification questionnaire.
+---
+
+# Compile questionnaire
+
+Use this skill when asked to update the model catalog or publish a new questionnaire version. Work from the repository root.
+
+1. Read `data/model_cutoffs.csv`, the latest `data/questionnaires/<version>/question_bank.json`, and `references/schema.md`. Check which model releases and published cutoff dates have appeared since the last catalog update. Prefer vendor model documentation, model cards, and release notes. Record an evidence URL for every row and a second corroborating URL when available. Keep published cutoff dates separate from release-date upper bounds. Do not turn a guessed date into an exact date.
+2. Update `data/model_cutoffs.csv`. Keep one row per provider and model ID. Run `uv sync` and `uv run python skills/compile-questionnaire/scripts/build_parquet.py` to regenerate `data/model_cutoffs.parquet`.
+3. Research dated events across the full cutoff range. Prefer major, unexpected, widely reported social events over model specifications and small numeric facts. At least two of each checkpoint's three questions should cover independent social events. A model that has encountered the event should be able to answer immediately. Avoid exact counts, benchmark scores, launch specifications, fine details, scheduled events, and outcomes that were publicly predictable before the event. Use near-contemporaneous primary reports and corroborate disputed facts with an independent source. Read `references/research.md`.
+4. Write Chinese prompts and options. Use one plainly recognizable event or outcome, two plausible alternatives, and a final `不知道／不确定` option. Check that exactly one substantive option is true and that the answer cannot be deduced from the wording alone. The compiler shuffles options. Record `eventDate`, `sourcePublishedDate`, and `sourceUrl` for each question. The cited source must have been published within seven days after the event.
+5. Create a new semantic version directory under `data/questionnaires/`. Put three independent questions in each checkpoint, ordered around its median event date. The checkpoint date is that median date, and the three events must fit within 90 days. Keep adjacent checkpoints at least 30 days apart. Do not edit an already published version. Set `asOf` to the compilation date and run `UV_CACHE_DIR=.uv-cache uv run python skills/compile-questionnaire/scripts/compile_questionnaire.py <version>`. The compiler bisects checkpoint dates. It asks one question at a time and moves to the later interval when at least two of three answers are correct. Otherwise it moves to the earlier interval. Unknown counts as no positive evidence. One wrong answer must never reverse a checkpoint by itself.
+6. Run `UV_CACHE_DIR=.uv-cache uv run python skills/compile-questionnaire/scripts/check_questionnaire.py <version>` and fix every failure. The checker compares source and compiled questions, publication timing, event spread, checkpoint spacing, source diversity, branch ranges, result candidates, answer positions, and one-error tolerance. Inspect every printed boundary and its catalog counts. Manually open each source and verify the claimed event, answer key, rival options, salience, and whether a model that knows the event would answer easily. Test all-unknown and one-wrong paths in the browser. Run `pnpm install --frozen-lockfile` and `pnpm build`. Keep all event content and model ranking data in `data/`; `src/` is only the renderer.
+
+The result is an estimate. Models can guess, receive later training, or use retrieval. Do not present a cutoff match as proof of identity or the ranking score as a calibrated probability.
+
+Follow repository instructions about commits and deployment. This repository requires user approval before committing.
