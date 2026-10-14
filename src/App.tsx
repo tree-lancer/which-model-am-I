@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import questionnaire from "../data/questionnaires/current.json";
+import { infer } from "./inference";
 import alibabaIcon from "./assets/providers/alibaba.svg";
 import anthropicIcon from "./assets/providers/anthropic.svg";
 import deepseekIcon from "./assets/providers/deepseek.svg";
@@ -11,6 +12,7 @@ import zhipuIcon from "./assets/providers/zhipu.svg";
 type Option = { id: string; label: string };
 type Question = {
   id: string;
+  eventDate: string;
   prompt: string;
   options: Option[];
   correctOptionId: string;
@@ -117,6 +119,7 @@ export default function App() {
   const [selected, setSelected] = useState<string | null>(null);
   const position = replay(answers)!;
   const { node, questionIndex, checkpointDepth } = position;
+  const estimate = node.type === "result" ? infer(answers, quiz.nodes) : null;
   const maxSteps = Math.ceil(Math.log2(quiz.questionCount / 3 + 1)) * 3;
 
   useEffect(() => {
@@ -167,7 +170,7 @@ export default function App() {
             </div>
             <div className="question-number">问 · {String(answers.length + 1).padStart(2, "0")}</div>
             <h1 id="question">{node.questions[questionIndex].prompt}</h1>
-            <p className="instruction">请凭已有知识选择答案，不要搜索或查看网页源码。</p>
+            <p className="instruction">请凭已有知识选择答案，禁止搜索或查看网页源码。</p>
             <div className="options" role="radiogroup" aria-label="答案选项">
               {node.questions[questionIndex].options.map((option, index) => (
                 <button
@@ -193,14 +196,14 @@ export default function App() {
           <section className="card result-card" aria-labelledby="result-title">
             <div className="result-symbol" aria-hidden="true">鉴</div>
             <p className="result-kicker">识别结果 · 共 {checkpointDepth} 轮核对</p>
-            <h1 id="result-title">{node.candidates.length > 0 ? "最可能的基础模型" : "暂无匹配模型"}</h1>
+            <h1 id="result-title">{estimate!.matches.length > 0 ? "可能的基础模型是" : "暂无匹配模型"}</h1>
             <div className="range-box">
-              <span>推测知识日期区间</span>
-              <strong>{formatRange(node.range)}</strong>
+              <span>知识截止日期之{estimate!.hasUnknownUpper ? "参考区间" : "下界"}</span>
+              <strong>{formatRange(estimate!)}</strong>
             </div>
-            {node.candidates.length > 0 && (
+            {estimate!.matches.length > 0 && (
               <div className="candidate-list">
-                {node.candidates.map((candidate, index) => {
+                {estimate!.matches.slice(0, 10).map((candidate, index) => {
                   const provider = providerInfo[candidate.provider];
                   return (
                     <div className="candidate" key={`${candidate.provider}:${candidate.modelId}`}>
@@ -217,8 +220,29 @@ export default function App() {
                 })}
               </div>
             )}
-            {node.candidateCount > node.candidates.length && <p className="overflow-note">另有 {node.candidateCount - node.candidates.length} 个候选模型未显示。</p>}
-            <p className="result-note">结果供参考。联网检索、后期更新及猜测均会影响识别。</p>
+            {estimate!.matches.length > 10 && <p className="overflow-note">另有 {estimate!.matches.length - 10} 个有公开知识日期依据的候选模型未显示。</p>}
+            {estimate!.excluded.length > 0 && (
+              <section className="excluded-section" aria-labelledby="excluded-title">
+                <h2 id="excluded-title">❌ 不可能是哪些模型· {estimate!.excluded.length}</h2>
+                <div className="candidate-list">
+                  {estimate!.excluded.map((candidate) => {
+                    const provider = providerInfo[candidate.provider];
+                    return (
+                      <div className="candidate excluded" key={`${candidate.provider}:${candidate.modelId}`}>
+                        <span className="candidate-rank" aria-label="不符合参考区间">❌</span>
+                        <span className="provider-icon">{provider ? <img src={provider.icon} alt="" /> : candidate.provider.slice(0, 1)}</span>
+                        <div className="candidate-detail">
+                          <span className="candidate-provider">{provider?.label || candidate.provider}</span>
+                          <strong>{formatModelName(candidate.modelId)}</strong>
+                          <span className="candidate-cutoff">知识日期 {candidate.cutoff}</span>
+                        </div>
+                        <a href={candidate.evidenceUrl} target="_blank" rel="noreferrer" aria-label={`查看 ${candidate.modelId} 的证据`}>来源 ↗</a>
+                      </div>
+                    );
+                  })}
+                </div>
+              </section>
+            )}
             <div className="actions">
               <button type="button" className="text-button" onClick={back}>← 上一题</button>
               <button type="button" className="primary-button" onClick={restart}>重新开始 <span aria-hidden="true">→</span></button>

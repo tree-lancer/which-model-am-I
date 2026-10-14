@@ -304,6 +304,22 @@ h1 {
 
 .result-note { margin: 23px 0 0; }
 
+.excluded-section {
+  margin-top: 36px;
+  padding-top: 25px;
+  border-top: 1px solid #e7e1dc;
+}
+
+.excluded-section h2 {
+  margin: 0;
+  color: #79534b;
+  font-size: 18px;
+}
+
+.excluded-section .result-note { margin: 8px 0 13px; }
+.candidate.excluded .candidate-rank { min-width: 25px; font-size: 16px; }
+.candidate.excluded .candidate-detail strong { color: #695650; }
+
 .footnote { margin: 20px 3px 0; line-height: 1.6; }
 
 .footer { min-height: 67px; border-top: 1px solid #dedfd5; }

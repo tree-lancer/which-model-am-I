@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "version": "1.1.0",
-  "asOf": "2026-10-13",
+  "version": "1.2.0",
+  "asOf": "2026-10-14",
   "catalogSize": 221,
   "questionCount": 21,
   "root": "checkpoint_2025_summer",

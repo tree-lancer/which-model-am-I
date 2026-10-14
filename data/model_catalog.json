@@ -1,0 +1,1549 @@
+[
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen-deep-research-2025-12-15",
+    "cutoff": "<2026-03-24",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen-flash-2025-07-28",
+    "cutoff": "<2025-08-06",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen-flash-character-2026-02-26",
+    "cutoff": "<2026-03-01",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen-long-2025-01-25",
+    "cutoff": "<2025-03-20",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen-math-plus-0816",
+    "cutoff": "<2024-09-14",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen-math-plus-0919",
+    "cutoff": "<2024-09-20",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen-plus-0112",
+    "cutoff": "<2025-01-16",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen-plus-1220",
+    "cutoff": "<2024-12-27",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen-plus-2025-01-25",
+    "cutoff": "<2025-02-04",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen-plus-2025-04-28",
+    "cutoff": "<2025-04-30",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen-plus-2025-07-14",
+    "cutoff": "<2025-07-17",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen-plus-2025-07-28",
+    "cutoff": "<2025-07-31",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen-plus-2025-09-11",
+    "cutoff": "<2025-09-12",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen-plus-2025-12-01",
+    "cutoff": "<2025-12-02",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen-vl-ocr-1028",
+    "cutoff": "<2024-11-15",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen-vl-ocr-2025-04-13",
+    "cutoff": "<2025-04-24",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen-vl-ocr-2025-08-28",
+    "cutoff": "<2025-09-14",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen-vl-ocr-2025-11-20",
+    "cutoff": "<2025-11-21",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen2.5-0.5b-instruct",
+    "cutoff": "<2024-09-20",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://qwenlm.github.io/blog/qwen2.5/"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen2.5-1.5b-instruct",
+    "cutoff": "<2024-09-20",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://qwenlm.github.io/blog/qwen2.5/"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen2.5-14b-instruct",
+    "cutoff": "<2024-09-20",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://qwenlm.github.io/blog/qwen2.5/"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen2.5-32b-instruct",
+    "cutoff": "<2024-09-20",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://qwenlm.github.io/blog/qwen2.5/"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen2.5-3b-instruct",
+    "cutoff": "<2024-09-20",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://qwenlm.github.io/blog/qwen2.5/"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen2.5-72b-instruct",
+    "cutoff": "<2024-09-20",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://qwenlm.github.io/blog/qwen2.5/"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen2.5-7b-instruct",
+    "cutoff": "<2024-09-20",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://qwenlm.github.io/blog/qwen2.5/"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3-0.6b",
+    "cutoff": "<2025-04-30",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://qwenlm.github.io/blog/qwen3/"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3-1.7b",
+    "cutoff": "<2025-04-30",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://qwenlm.github.io/blog/qwen3/"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3-14b",
+    "cutoff": "<2025-04-30",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://qwenlm.github.io/blog/qwen3/"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3-235b-a22b",
+    "cutoff": "<2025-04-30",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://qwenlm.github.io/blog/qwen3/"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3-235b-a22b-instruct-2507",
+    "cutoff": "<2025-07-23",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3-235b-a22b-thinking-2507",
+    "cutoff": "<2025-07-26",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3-30b-a3b",
+    "cutoff": "<2025-04-30",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://qwenlm.github.io/blog/qwen3/"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3-30b-a3b-instruct-2507",
+    "cutoff": "<2025-07-30",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3-30b-a3b-thinking-2507",
+    "cutoff": "<2025-07-31",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3-32b",
+    "cutoff": "<2025-04-30",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://qwenlm.github.io/blog/qwen3/"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3-4b",
+    "cutoff": "<2025-04-30",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://qwenlm.github.io/blog/qwen3/"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3-8b",
+    "cutoff": "<2025-04-30",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://qwenlm.github.io/blog/qwen3/"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3-coder-30b-a3b-instruct",
+    "cutoff": "<2025-08-01",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3-coder-480b-a35b-instruct",
+    "cutoff": "<2025-07-23",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3-coder-flash-2025-07-28",
+    "cutoff": "<2025-08-06",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3-coder-next",
+    "cutoff": "<2026-02-20",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3-coder-plus-2025-07-22",
+    "cutoff": "<2025-07-23",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3-coder-plus-2025-09-23",
+    "cutoff": "<2025-09-24",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3-max-2025-09-23",
+    "cutoff": "<2025-09-24",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3-max-2026-01-23",
+    "cutoff": "<2026-01-24",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3-max-preview",
+    "cutoff": "<2025-09-06",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3-next-80b-a3b-instruct",
+    "cutoff": "<2025-09-12",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3-next-80b-a3b-thinking",
+    "cutoff": "<2025-09-12",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3-vl-235b-a22b-instruct",
+    "cutoff": "<2025-09-24",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3-vl-235b-a22b-thinking",
+    "cutoff": "<2025-09-24",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3-vl-30b-a3b-instruct",
+    "cutoff": "<2025-10-01",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3-vl-30b-a3b-thinking",
+    "cutoff": "<2025-10-01",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3-vl-32b-instruct",
+    "cutoff": "<2025-10-22",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3-vl-32b-thinking",
+    "cutoff": "<2025-10-22",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3-vl-8b-instruct",
+    "cutoff": "<2025-10-01",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3-vl-8b-thinking",
+    "cutoff": "<2025-10-01",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3-vl-flash-2025-10-15",
+    "cutoff": "<2025-10-16",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3-vl-flash-2026-01-22",
+    "cutoff": "<2026-01-23",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3-vl-plus",
+    "cutoff": "<2026-01-27",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3-vl-plus-2025-09-23",
+    "cutoff": "<2025-09-24",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3-vl-plus-2025-12-19",
+    "cutoff": "<2025-12-20",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3.5-122b-a10b",
+    "cutoff": "<2026-02-24",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3.5-27b",
+    "cutoff": "<2026-02-24",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3.5-35b-a3b",
+    "cutoff": "<2026-02-24",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3.5-397b-a17b",
+    "cutoff": "<2026-02-16",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3.5-flash-2026-02-23",
+    "cutoff": "<2026-02-24",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3.5-ocr",
+    "cutoff": "<2026-06-17",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3.5-plus-2026-02-15",
+    "cutoff": "<2026-02-16",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3.5-plus-2026-04-20",
+    "cutoff": "<2026-04-24",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3.6-27b",
+    "cutoff": "<2026-04-23",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3.6-35b-a3b",
+    "cutoff": "<2026-04-17",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3.6-flash-2026-04-16",
+    "cutoff": "<2026-04-17",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3.6-max-preview",
+    "cutoff": "<2026-04-21",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3.6-plus-2026-04-02",
+    "cutoff": "<2026-04-03",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3.7-flash-2026-07-15",
+    "cutoff": "<2026-07-22",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3.7-max-2026-05-17",
+    "cutoff": "<2026-05-21",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3.7-max-2026-05-20",
+    "cutoff": "<2026-05-22",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3.7-max-2026-06-08",
+    "cutoff": "<2026-06-10",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3.7-plus-2026-05-26",
+    "cutoff": "<2026-06-02",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3.8-2.4t-a95b",
+    "cutoff": "<2026-08-13",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3.8-27b",
+    "cutoff": "<2026-08-18",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3.8-flash",
+    "cutoff": "<2026-08-27",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3.8-max",
+    "cutoff": "<2026-08-03",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Alibaba",
+    "modelId": "qwen3.8-max-0902",
+    "cutoff": "<2026-09-03",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Anthropic",
+    "modelId": "claude-3-5-haiku-20241022",
+    "cutoff": ">2024-06-30&<2024-08-01",
+    "basis": "official_knowledge_cutoff_month",
+    "evidenceUrl": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/deprecations/partner-models"
+  },
+  {
+    "provider": "Anthropic",
+    "modelId": "claude-3-5-sonnet-20240620",
+    "cutoff": ">2024-03-31&<2024-05-01",
+    "basis": "official_knowledge_cutoff_month",
+    "evidenceUrl": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/deprecations/partner-models"
+  },
+  {
+    "provider": "Anthropic",
+    "modelId": "claude-3-5-sonnet-20241022",
+    "cutoff": ">2024-07-31&<2024-09-01",
+    "basis": "official_knowledge_cutoff_month",
+    "evidenceUrl": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/deprecations/partner-models"
+  },
+  {
+    "provider": "Anthropic",
+    "modelId": "claude-3-7-sonnet-20250219",
+    "cutoff": ">2024-09-30&<2024-11-01",
+    "basis": "official_knowledge_cutoff_month",
+    "evidenceUrl": "https://www.anthropic.com/transparency"
+  },
+  {
+    "provider": "Anthropic",
+    "modelId": "claude-3-haiku-20240307",
+    "cutoff": ">2023-07-31&<2023-09-01",
+    "basis": "official_knowledge_cutoff_month",
+    "evidenceUrl": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/deprecations/partner-models"
+  },
+  {
+    "provider": "Anthropic",
+    "modelId": "claude-3-opus-20240229",
+    "cutoff": ">2023-07-31&<2023-09-01",
+    "basis": "official_knowledge_cutoff_month",
+    "evidenceUrl": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/deprecations/partner-models"
+  },
+  {
+    "provider": "Anthropic",
+    "modelId": "claude-3-sonnet-20240229",
+    "cutoff": ">2023-07-31&<2023-09-01",
+    "basis": "official_knowledge_cutoff_month",
+    "evidenceUrl": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/deprecations/partner-models"
+  },
+  {
+    "provider": "Anthropic",
+    "modelId": "claude-fable-5",
+    "cutoff": ">2025-12-31&<2026-02-01",
+    "basis": "official_reliable_knowledge_cutoff",
+    "evidenceUrl": "https://platform.claude.com/docs/en/models/fable-5/overview"
+  },
+  {
+    "provider": "Anthropic",
+    "modelId": "claude-fable-5-1",
+    "cutoff": ">2026-05-31&<2026-07-01",
+    "basis": "official_reliable_knowledge_cutoff",
+    "evidenceUrl": "https://platform.claude.com/docs/en/models/fable-5-1/overview"
+  },
+  {
+    "provider": "Anthropic",
+    "modelId": "claude-haiku-4-5-20251001",
+    "cutoff": ">2025-01-31&<2025-03-01",
+    "basis": "official_reliable_knowledge_cutoff",
+    "evidenceUrl": "https://platform.claude.com/docs/en/models/haiku-4-5/overview"
+  },
+  {
+    "provider": "Anthropic",
+    "modelId": "claude-haiku-5-5",
+    "cutoff": ">2026-05-31&<2026-07-01",
+    "basis": "official_reliable_knowledge_cutoff",
+    "evidenceUrl": "https://platform.claude.com/docs/en/models/haiku-5-5/overview"
+  },
+  {
+    "provider": "Anthropic",
+    "modelId": "claude-opus-4-1-20250805",
+    "cutoff": ">2024-12-31&<2025-02-01",
+    "basis": "official_knowledge_cutoff_month",
+    "evidenceUrl": "https://www.anthropic.com/transparency"
+  },
+  {
+    "provider": "Anthropic",
+    "modelId": "claude-opus-4-20250514",
+    "cutoff": ">2024-12-31&<2025-02-01",
+    "basis": "official_knowledge_cutoff_month",
+    "evidenceUrl": "https://www.anthropic.com/transparency"
+  },
+  {
+    "provider": "Anthropic",
+    "modelId": "claude-opus-4-5-20251101",
+    "cutoff": ">2025-04-30&<2025-06-01",
+    "basis": "official_reliable_knowledge_cutoff",
+    "evidenceUrl": "https://platform.claude.com/docs/en/models/opus-4-5/overview"
+  },
+  {
+    "provider": "Anthropic",
+    "modelId": "claude-opus-4-6",
+    "cutoff": ">2025-04-30&<2025-06-01",
+    "basis": "official_reliable_knowledge_cutoff",
+    "evidenceUrl": "https://platform.claude.com/docs/en/models/opus-4-6/overview"
+  },
+  {
+    "provider": "Anthropic",
+    "modelId": "claude-opus-4-7",
+    "cutoff": ">2025-12-31&<2026-02-01",
+    "basis": "official_reliable_knowledge_cutoff",
+    "evidenceUrl": "https://platform.claude.com/docs/en/models/opus-4-7/overview"
+  },
+  {
+    "provider": "Anthropic",
+    "modelId": "claude-opus-4-8",
+    "cutoff": ">2025-12-31&<2026-02-01",
+    "basis": "official_reliable_knowledge_cutoff",
+    "evidenceUrl": "https://platform.claude.com/docs/en/models/opus-4-8/overview"
+  },
+  {
+    "provider": "Anthropic",
+    "modelId": "claude-opus-5",
+    "cutoff": ">2026-04-30&<2026-06-01",
+    "basis": "official_reliable_knowledge_cutoff",
+    "evidenceUrl": "https://platform.claude.com/docs/en/models/opus-5/overview"
+  },
+  {
+    "provider": "Anthropic",
+    "modelId": "claude-opus-5-5",
+    "cutoff": ">2026-05-31&<2026-07-01",
+    "basis": "official_reliable_knowledge_cutoff",
+    "evidenceUrl": "https://platform.claude.com/docs/en/models/opus-5-5/overview"
+  },
+  {
+    "provider": "Anthropic",
+    "modelId": "claude-sonnet-4-20250514",
+    "cutoff": ">2024-12-31&<2025-02-01",
+    "basis": "official_knowledge_cutoff_month",
+    "evidenceUrl": "https://www.anthropic.com/transparency"
+  },
+  {
+    "provider": "Anthropic",
+    "modelId": "claude-sonnet-4-5-20250929",
+    "cutoff": ">2024-12-31&<2025-02-01",
+    "basis": "official_reliable_knowledge_cutoff",
+    "evidenceUrl": "https://platform.claude.com/docs/en/models/sonnet-4-5/overview"
+  },
+  {
+    "provider": "Anthropic",
+    "modelId": "claude-sonnet-4-6",
+    "cutoff": ">2025-07-31&<2025-09-01",
+    "basis": "official_reliable_knowledge_cutoff",
+    "evidenceUrl": "https://platform.claude.com/docs/en/models/sonnet-4-6/overview"
+  },
+  {
+    "provider": "Anthropic",
+    "modelId": "claude-sonnet-5",
+    "cutoff": ">2025-12-31&<2026-02-01",
+    "basis": "official_reliable_knowledge_cutoff",
+    "evidenceUrl": "https://platform.claude.com/docs/en/models/sonnet-5/overview"
+  },
+  {
+    "provider": "Anthropic",
+    "modelId": "claude-sonnet-5-5",
+    "cutoff": ">2026-05-31&<2026-07-01",
+    "basis": "official_reliable_knowledge_cutoff",
+    "evidenceUrl": "https://platform.claude.com/docs/en/models/sonnet-5-5/overview"
+  },
+  {
+    "provider": "DeepSeek",
+    "modelId": "deepseek-r1",
+    "cutoff": "<2025-01-21",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://www.deepseek.com/en/news/deepseek-r1/"
+  },
+  {
+    "provider": "DeepSeek",
+    "modelId": "deepseek-r1-0528",
+    "cutoff": "<2025-06-05",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "DeepSeek",
+    "modelId": "deepseek-r1-distill-qwen-1.5b",
+    "cutoff": "<2025-02-06",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "DeepSeek",
+    "modelId": "deepseek-r1-distill-qwen-14b",
+    "cutoff": "<2025-02-06",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "DeepSeek",
+    "modelId": "deepseek-r1-distill-qwen-32b",
+    "cutoff": "<2025-02-06",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "DeepSeek",
+    "modelId": "deepseek-r1-distill-qwen-7b",
+    "cutoff": "<2025-02-06",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "DeepSeek",
+    "modelId": "deepseek-v3",
+    "cutoff": "<2024-12-27",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://www.deepseek.com/en/news/deepseek-v3/"
+  },
+  {
+    "provider": "DeepSeek",
+    "modelId": "deepseek-v3-base",
+    "cutoff": ">2024-06-30&<2024-08-01",
+    "basis": "official_knowledge_cutoff_month",
+    "evidenceUrl": "https://arxiv.org/pdf/2501.12948"
+  },
+  {
+    "provider": "DeepSeek",
+    "modelId": "deepseek-v3.1",
+    "cutoff": "<2025-08-22",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://www.deepseek.com/en/news/deepseek-v3-1/"
+  },
+  {
+    "provider": "DeepSeek",
+    "modelId": "deepseek-v3.2",
+    "cutoff": "<2025-12-02",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://www.deepseek.com/en/news/deepseek-v3-2/"
+  },
+  {
+    "provider": "DeepSeek",
+    "modelId": "deepseek-v3.2-exp",
+    "cutoff": "<2025-09-30",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://www.deepseek.com/en/news/v3-2-exp/"
+  },
+  {
+    "provider": "DeepSeek",
+    "modelId": "deepseek-v4-flash",
+    "cutoff": "<2026-04-25",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://www.deepseek.com/en/news/v4-preview/"
+  },
+  {
+    "provider": "DeepSeek",
+    "modelId": "deepseek-v4-flash-0731",
+    "cutoff": "<2026-08-02",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "DeepSeek",
+    "modelId": "deepseek-v4-pro",
+    "cutoff": "<2026-04-25",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://www.deepseek.com/en/news/v4-preview/"
+  },
+  {
+    "provider": "DeepSeek",
+    "modelId": "deepseek-v4-pro-0813",
+    "cutoff": "<2026-08-15",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "DeepSeek",
+    "modelId": "deepseek-v4.1-flash",
+    "cutoff": "<2026-09-11",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://www.deepseek.com/en/news/deepseek-v4-1-flash/"
+  },
+  {
+    "provider": "Google",
+    "modelId": "gemini-1.5-flash",
+    "cutoff": "<2024-05-15",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/"
+  },
+  {
+    "provider": "Google",
+    "modelId": "gemini-1.5-pro",
+    "cutoff": "<2024-02-16",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024/"
+  },
+  {
+    "provider": "Google",
+    "modelId": "gemini-2.0-flash",
+    "cutoff": ">2024-07-31&<2024-09-01",
+    "basis": "official_knowledge_cutoff_month",
+    "evidenceUrl": "https://ai.google.dev/gemini-api/docs/models/gemini-2.0-flash"
+  },
+  {
+    "provider": "Google",
+    "modelId": "gemini-2.0-flash-lite",
+    "cutoff": ">2024-07-31&<2024-09-01",
+    "basis": "official_knowledge_cutoff_month",
+    "evidenceUrl": "https://ai.google.dev/gemini-api/docs/models/gemini-2.0-flash-lite"
+  },
+  {
+    "provider": "Google",
+    "modelId": "gemini-2.5-flash",
+    "cutoff": ">2024-12-31&<2025-02-01",
+    "basis": "official_knowledge_cutoff_month",
+    "evidenceUrl": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash"
+  },
+  {
+    "provider": "Google",
+    "modelId": "gemini-2.5-flash-image",
+    "cutoff": ">2025-05-31&<2025-07-01",
+    "basis": "official_knowledge_cutoff_month",
+    "evidenceUrl": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-image"
+  },
+  {
+    "provider": "Google",
+    "modelId": "gemini-2.5-flash-lite",
+    "cutoff": ">2024-12-31&<2025-02-01",
+    "basis": "official_knowledge_cutoff_month",
+    "evidenceUrl": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-lite"
+  },
+  {
+    "provider": "Google",
+    "modelId": "gemini-2.5-pro",
+    "cutoff": ">2024-12-31&<2025-02-01",
+    "basis": "official_knowledge_cutoff_month",
+    "evidenceUrl": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-pro"
+  },
+  {
+    "provider": "Google",
+    "modelId": "gemini-3-flash-preview",
+    "cutoff": ">2024-12-31&<2025-02-01",
+    "basis": "official_knowledge_cutoff_month",
+    "evidenceUrl": "https://ai.google.dev/gemini-api/docs/gemini-3"
+  },
+  {
+    "provider": "Google",
+    "modelId": "gemini-3-pro-preview",
+    "cutoff": ">2024-12-31&<2025-02-01",
+    "basis": "official_knowledge_cutoff_month",
+    "evidenceUrl": "https://ai.google.dev/gemini-api/docs/gemini-3"
+  },
+  {
+    "provider": "Google",
+    "modelId": "gemini-3.1-flash-image-preview",
+    "cutoff": ">2024-12-31&<2025-02-01",
+    "basis": "official_knowledge_cutoff_month",
+    "evidenceUrl": "https://ai.google.dev/gemini-api/docs/gemini-3"
+  },
+  {
+    "provider": "Google",
+    "modelId": "gemini-3.1-flash-lite",
+    "cutoff": ">2024-12-31&<2025-02-01",
+    "basis": "official_knowledge_cutoff_month",
+    "evidenceUrl": "https://ai.google.dev/gemini-api/docs/gemini-3"
+  },
+  {
+    "provider": "Google",
+    "modelId": "gemini-3.1-pro-preview",
+    "cutoff": ">2024-12-31&<2025-02-01",
+    "basis": "official_knowledge_cutoff_month",
+    "evidenceUrl": "https://ai.google.dev/gemini-api/docs/gemini-3"
+  },
+  {
+    "provider": "Google",
+    "modelId": "gemini-3.5-flash",
+    "cutoff": ">2024-12-31&<2025-02-01",
+    "basis": "official_knowledge_cutoff_month",
+    "evidenceUrl": "https://ai.google.dev/gemini-api/docs/gemini-3"
+  },
+  {
+    "provider": "Google",
+    "modelId": "gemini-3.5-flash-lite",
+    "cutoff": ">2024-12-31&<2025-02-01",
+    "basis": "official_knowledge_cutoff_month",
+    "evidenceUrl": "https://ai.google.dev/gemini-api/docs/gemini-3"
+  },
+  {
+    "provider": "Google",
+    "modelId": "gemini-3.6-flash",
+    "cutoff": ">2024-12-31&<2025-02-01",
+    "basis": "official_knowledge_cutoff_month",
+    "evidenceUrl": "https://ai.google.dev/gemini-api/docs/gemini-3"
+  },
+  {
+    "provider": "Moonshot",
+    "modelId": "kimi-k2-base",
+    "cutoff": "<2025-07-17",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Moonshot",
+    "modelId": "kimi-k2-instruct",
+    "cutoff": "<2025-07-17",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Moonshot",
+    "modelId": "kimi-k2-thinking",
+    "cutoff": "<2025-11-11",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Moonshot",
+    "modelId": "kimi-k2.5",
+    "cutoff": "<2026-01-28",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://github.com/MoonshotAI/Kimi-K2.5"
+  },
+  {
+    "provider": "Moonshot",
+    "modelId": "kimi-k2.6",
+    "cutoff": "<2026-04-22",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Moonshot",
+    "modelId": "kimi-k2.7-code",
+    "cutoff": "<2026-06-16",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Moonshot",
+    "modelId": "kimi-k3",
+    "cutoff": "<2026-08-20",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "chatgpt-4o-latest",
+    "cutoff": "=2023-10-01",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/chatgpt-4o-latest"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-4.1",
+    "cutoff": "=2024-06-01",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-4.1"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-4.1-mini",
+    "cutoff": "=2024-06-01",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-4.1-mini"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-4.1-nano",
+    "cutoff": "=2024-06-01",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-4.1-nano"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-4.5-preview",
+    "cutoff": "=2023-10-01",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-4.5-preview"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-4o",
+    "cutoff": "=2023-10-01",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-4o"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-4o-audio-preview",
+    "cutoff": "=2023-10-01",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-4o-audio-preview"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-4o-mini",
+    "cutoff": "=2023-10-01",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-4o-mini"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-4o-mini-audio-preview",
+    "cutoff": "=2023-10-01",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-4o-mini-audio-preview"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-4o-mini-realtime-preview",
+    "cutoff": "=2023-10-01",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-4o-mini-realtime-preview"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-4o-mini-search-preview",
+    "cutoff": "=2023-10-01",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-4o-mini-search-preview"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-4o-mini-transcribe",
+    "cutoff": "=2024-06-01",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-4o-mini-transcribe"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-4o-realtime-preview",
+    "cutoff": "=2023-10-01",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-4o-realtime-preview"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-4o-search-preview",
+    "cutoff": "=2023-10-01",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-4o-search-preview"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-4o-transcribe",
+    "cutoff": "=2024-06-01",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-4o-transcribe"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-4o-transcribe-diarize",
+    "cutoff": "=2024-06-01",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-4o-transcribe-diarize"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-5",
+    "cutoff": "=2024-09-30",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-5"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-5-chat-latest",
+    "cutoff": "=2024-09-30",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-5-chat-latest"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-5-codex",
+    "cutoff": "=2024-09-30",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-5-codex"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-5-mini",
+    "cutoff": "=2024-05-31",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-5-mini"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-5-nano",
+    "cutoff": "=2024-05-31",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-5-nano"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-5-pro",
+    "cutoff": "=2024-09-30",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-5-pro"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-5.1",
+    "cutoff": "=2024-09-30",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-5.1"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-5.1-chat-latest",
+    "cutoff": "=2024-09-30",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-5.1-chat-latest"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-5.1-codex",
+    "cutoff": "=2024-09-30",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-5.1-codex"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-5.1-codex-max",
+    "cutoff": "=2024-09-30",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-5.1-codex-max"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-5.1-codex-mini",
+    "cutoff": "=2024-09-30",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-5.1-codex-mini"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-5.2",
+    "cutoff": "=2025-08-31",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-5.2"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-5.2-chat-latest",
+    "cutoff": "=2025-08-31",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-5.2-chat-latest"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-5.2-codex",
+    "cutoff": "=2025-08-31",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-5.2-codex"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-5.2-pro",
+    "cutoff": "=2025-08-31",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-5.2-pro"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-5.3-chat-latest",
+    "cutoff": "=2025-08-31",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-5.3-chat-latest"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-5.3-codex",
+    "cutoff": "=2025-08-31",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-5.3-codex"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-5.4",
+    "cutoff": "=2025-08-31",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-5.4"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-5.4-mini",
+    "cutoff": "=2025-08-31",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-5.4-mini"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-5.4-nano",
+    "cutoff": "=2025-08-31",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-5.4-nano"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-5.4-pro",
+    "cutoff": "=2025-08-31",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-5.4-pro"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-5.5",
+    "cutoff": "=2025-12-01",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-5.5"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-5.5-pro",
+    "cutoff": "=2025-12-01",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-5.5-pro"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-5.6-cyber",
+    "cutoff": "=2026-02-16",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-5.6-cyber"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-5.6-luna",
+    "cutoff": "=2026-02-16",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-5.6-luna"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-5.6-sol",
+    "cutoff": "=2026-02-16",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-5.6-sol"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-5.6-terra",
+    "cutoff": "=2026-02-16",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-5.6-terra"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-6-astra",
+    "cutoff": "=2026-04-30",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-6-astra"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-6-luna",
+    "cutoff": "=2026-05-18",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-6-luna"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-6-sol",
+    "cutoff": "=2026-04-20",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-6-sol"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-6.1-sol",
+    "cutoff": "=2026-04-30",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-6.1-sol"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-audio",
+    "cutoff": "=2023-10-01",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-audio"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-audio-1.5",
+    "cutoff": "=2024-09-30",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-audio-1.5"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-audio-mini",
+    "cutoff": "=2023-10-01",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-audio-mini"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-oss-120b",
+    "cutoff": "=2024-06-01",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-oss-120b"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-oss-20b",
+    "cutoff": "=2024-06-01",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-oss-20b"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-realtime",
+    "cutoff": "=2023-10-01",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-realtime"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-realtime-1.5",
+    "cutoff": "=2024-09-30",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-realtime-1.5"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "gpt-realtime-mini",
+    "cutoff": "=2023-10-01",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/gpt-realtime-mini"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "o1",
+    "cutoff": "=2023-10-01",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/o1"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "o1-mini",
+    "cutoff": "=2023-10-01",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/o1-mini"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "o1-preview",
+    "cutoff": "=2023-10-01",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/o1-preview"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "o1-pro",
+    "cutoff": "=2023-10-01",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/o1-pro"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "o3",
+    "cutoff": "=2024-06-01",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/o3"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "o3-deep-research",
+    "cutoff": "=2024-06-01",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/o3-deep-research"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "o3-mini",
+    "cutoff": "=2023-10-01",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/o3-mini"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "o3-pro",
+    "cutoff": "=2024-06-01",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/o3-pro"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "o4-mini",
+    "cutoff": "=2024-06-01",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/o4-mini"
+  },
+  {
+    "provider": "OpenAI",
+    "modelId": "o4-mini-deep-research",
+    "cutoff": "=2024-06-01",
+    "basis": "official_knowledge_cutoff",
+    "evidenceUrl": "https://developers.openai.com/api/docs/models/o4-mini-deep-research"
+  },
+  {
+    "provider": "Zhipu",
+    "modelId": "glm-4.5",
+    "cutoff": "<2025-08-07",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Zhipu",
+    "modelId": "glm-4.5-air",
+    "cutoff": "<2025-08-07",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Zhipu",
+    "modelId": "glm-4.6",
+    "cutoff": "<2025-10-22",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Zhipu",
+    "modelId": "glm-4.7",
+    "cutoff": "<2025-12-26",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Zhipu",
+    "modelId": "glm-5",
+    "cutoff": "<2026-02-19",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Zhipu",
+    "modelId": "glm-5.1",
+    "cutoff": "<2026-04-15",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Zhipu",
+    "modelId": "glm-5.2",
+    "cutoff": "<2026-06-17",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Zhipu",
+    "modelId": "glm-5.2-fast-preview",
+    "cutoff": "<2026-07-10",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
+    "provider": "Zhipu",
+    "modelId": "glm-5.3",
+    "cutoff": "<2026-08-15",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://z.ai/blog/glm-5.3"
+  }
+]

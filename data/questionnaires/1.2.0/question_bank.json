@@ -1,0 +1,636 @@
+{
+  "version": "1.2.0",
+  "asOf": "2026-10-14",
+  "checkpoints": [
+    {
+      "id": "2024_spring",
+      "date": "2024-05-10",
+      "questions": [
+        {
+          "id": "hualien_quake",
+          "eventDate": "2024-04-03",
+          "category": "society",
+          "prompt": "2024 年 4 月初，台湾发生了哪件受到广泛关注的突发事件？",
+          "options": [
+            {
+              "id": "a",
+              "label": "花莲附近发生强震"
+            },
+            {
+              "id": "b",
+              "label": "花莲遭遇强台风"
+            },
+            {
+              "id": "c",
+              "label": "花莲港附近发生严重漏油"
+            },
+            {
+              "id": "unknown",
+              "label": "不知道／不确定"
+            }
+          ],
+          "correctOptionId": "a",
+          "unknownOptionId": "unknown",
+          "sourceUrl": "https://www.usgs.gov/news/featured-story/strong-quake-and-aftershocks-rattle-eastern-taiwan",
+          "sourcePublishedDate": "2024-04-03"
+        },
+        {
+          "id": "solar_storm",
+          "eventDate": "2024-05-10",
+          "category": "society",
+          "prompt": "2024 年 5 月，世界多地出现了哪种罕见自然景象？",
+          "options": [
+            {
+              "id": "a",
+              "label": "罕见的大范围极光"
+            },
+            {
+              "id": "b",
+              "label": "罕见的大范围沙尘暴"
+            },
+            {
+              "id": "c",
+              "label": "罕见的大范围海市蜃楼"
+            },
+            {
+              "id": "unknown",
+              "label": "不知道／不确定"
+            }
+          ],
+          "correctOptionId": "a",
+          "unknownOptionId": "unknown",
+          "sourceUrl": "https://prod-01-asg-www-swpc.woc.noaa.gov/news/g5-conditions-observed",
+          "sourcePublishedDate": "2024-05-11"
+        },
+        {
+          "id": "gpt4o_launch",
+          "eventDate": "2024-05-13",
+          "category": "technology",
+          "prompt": "2024 年 5 月，OpenAI 发布了哪款受到广泛报道的新模型？",
+          "options": [
+            {
+              "id": "a",
+              "label": "GPT-4o"
+            },
+            {
+              "id": "b",
+              "label": "GPT-5"
+            },
+            {
+              "id": "c",
+              "label": "o3-pro"
+            },
+            {
+              "id": "unknown",
+              "label": "不知道／不确定"
+            }
+          ],
+          "correctOptionId": "a",
+          "unknownOptionId": "unknown",
+          "sourceUrl": "https://openai.com/index/hello-gpt-4o/",
+          "sourcePublishedDate": "2024-05-13"
+        }
+      ]
+    },
+    {
+      "id": "2024_summer",
+      "date": "2024-08-05",
+      "questions": [
+        {
+          "id": "paris_rain",
+          "eventDate": "2024-07-26",
+          "category": "society",
+          "prompt": "2024 年巴黎奥运会开幕式上，哪件事情确实发生了？",
+          "options": [
+            {
+              "id": "a",
+              "label": "露天仪式遭遇降雨"
+            },
+            {
+              "id": "b",
+              "label": "仪式因大风延至次日"
+            },
+            {
+              "id": "c",
+              "label": "仪式改为室内举行"
+            },
+            {
+              "id": "unknown",
+              "label": "不知道／不确定"
+            }
+          ],
+          "correctOptionId": "a",
+          "unknownOptionId": "unknown",
+          "sourceUrl": "https://www.ap.org/news-highlights/olympics/2024/paris-glitters-in-the-rain-for-ambitious-olympic-opening-ceremony/",
+          "sourcePublishedDate": "2024-07-26"
+        },
+        {
+          "id": "bangladesh_protests",
+          "eventDate": "2024-08-05",
+          "category": "society",
+          "prompt": "2024 年 8 月，孟加拉国的抗议活动之后出现了哪项重大变化？",
+          "options": [
+            {
+              "id": "a",
+              "label": "总理谢赫·哈西娜辞职"
+            },
+            {
+              "id": "b",
+              "label": "总理宣布提前举行大选"
+            },
+            {
+              "id": "c",
+              "label": "总理宣布解散内阁但继续执政"
+            },
+            {
+              "id": "unknown",
+              "label": "不知道／不确定"
+            }
+          ],
+          "correctOptionId": "a",
+          "unknownOptionId": "unknown",
+          "sourceUrl": "https://press.un.org/en/2024/sgsm22326.doc.htm",
+          "sourcePublishedDate": "2024-08-05"
+        },
+        {
+          "id": "iphone16_launch",
+          "eventDate": "2024-09-09",
+          "category": "technology",
+          "prompt": "2024 年 9 月发布的 iPhone 16 系列加入了哪项新功能？",
+          "options": [
+            {
+              "id": "a",
+              "label": "相机控制"
+            },
+            {
+              "id": "b",
+              "label": "屏下前置摄像头"
+            },
+            {
+              "id": "c",
+              "label": "屏幕指纹解锁"
+            },
+            {
+              "id": "unknown",
+              "label": "不知道／不确定"
+            }
+          ],
+          "correctOptionId": "a",
+          "unknownOptionId": "unknown",
+          "sourceUrl": "https://www.apple.com/newsroom/2024/09/get-ready-to-upgrade-to-the-new-iphone-16-apple-watch-and-airpods-lineups/",
+          "sourcePublishedDate": "2024-09-09"
+        }
+      ]
+    },
+    {
+      "id": "2025_winter",
+      "date": "2025-01-20",
+      "questions": [
+        {
+          "id": "la_wildfires",
+          "eventDate": "2025-01-07",
+          "category": "society",
+          "prompt": "2025 年 1 月，洛杉矶地区发生了哪种重大灾害？",
+          "options": [
+            {
+              "id": "a",
+              "label": "多场大规模山火"
+            },
+            {
+              "id": "b",
+              "label": "海啸侵袭市中心"
+            },
+            {
+              "id": "c",
+              "label": "强震引发全城停电"
+            },
+            {
+              "id": "unknown",
+              "label": "不知道／不确定"
+            }
+          ],
+          "correctOptionId": "a",
+          "unknownOptionId": "unknown",
+          "sourceUrl": "https://www.gov.ca.gov/2025/01/07/governor-newsom-proclaims-state-of-emergency-meets-with-first-responders-in-pacific-palisades-amid-dangerous-fire-weather/",
+          "sourcePublishedDate": "2025-01-07"
+        },
+        {
+          "id": "deepseek_r1_launch",
+          "eventDate": "2025-01-20",
+          "category": "technology",
+          "prompt": "2025 年 1 月，DeepSeek 发布了哪款引发广泛讨论的推理模型？",
+          "options": [
+            {
+              "id": "a",
+              "label": "DeepSeek-R1"
+            },
+            {
+              "id": "b",
+              "label": "DeepSeek-V4 Pro"
+            },
+            {
+              "id": "c",
+              "label": "DeepSeek-Coder 3"
+            },
+            {
+              "id": "unknown",
+              "label": "不知道／不确定"
+            }
+          ],
+          "correctOptionId": "a",
+          "unknownOptionId": "unknown",
+          "sourceUrl": "https://www.deepseek.com/en/news/deepseek-r1/",
+          "sourcePublishedDate": "2025-01-20"
+        },
+        {
+          "id": "myanmar_quake",
+          "eventDate": "2025-03-28",
+          "category": "society",
+          "prompt": "2025 年 3 月底，东南亚哪一国发生了严重地震？",
+          "options": [
+            {
+              "id": "a",
+              "label": "缅甸"
+            },
+            {
+              "id": "b",
+              "label": "泰国"
+            },
+            {
+              "id": "c",
+              "label": "老挝"
+            },
+            {
+              "id": "unknown",
+              "label": "不知道／不确定"
+            }
+          ],
+          "correctOptionId": "a",
+          "unknownOptionId": "unknown",
+          "sourceUrl": "https://myanmar.un.org/my/node/291860",
+          "sourcePublishedDate": "2025-03-29"
+        }
+      ]
+    },
+    {
+      "id": "2025_summer",
+      "date": "2025-08-07",
+      "questions": [
+        {
+          "id": "texas_floods",
+          "eventDate": "2025-07-04",
+          "category": "society",
+          "prompt": "2025 年 7 月初，美国得克萨斯州发生了哪种重大灾害？",
+          "options": [
+            {
+              "id": "a",
+              "label": "突发洪水"
+            },
+            {
+              "id": "b",
+              "label": "严重龙卷风"
+            },
+            {
+              "id": "c",
+              "label": "大范围山火"
+            },
+            {
+              "id": "unknown",
+              "label": "不知道／不确定"
+            }
+          ],
+          "correctOptionId": "a",
+          "unknownOptionId": "unknown",
+          "sourceUrl": "https://www.un.org/sustainabledevelopment/blog/2025/07/very-limited-time-to-react-texas-flash-floods-expose-challenges-in-early-warning/",
+          "sourcePublishedDate": "2025-07-09"
+        },
+        {
+          "id": "gpt5_launch",
+          "eventDate": "2025-08-07",
+          "category": "technology",
+          "prompt": "2025 年 8 月，OpenAI 正式发布的是哪一代 GPT 模型？",
+          "options": [
+            {
+              "id": "a",
+              "label": "GPT-5"
+            },
+            {
+              "id": "b",
+              "label": "GPT-6"
+            },
+            {
+              "id": "c",
+              "label": "GPT-4o"
+            },
+            {
+              "id": "unknown",
+              "label": "不知道／不确定"
+            }
+          ],
+          "correctOptionId": "a",
+          "unknownOptionId": "unknown",
+          "sourceUrl": "https://openai.com/gpt-5/",
+          "sourcePublishedDate": "2025-08-07"
+        },
+        {
+          "id": "nepal_protests",
+          "eventDate": "2025-09-09",
+          "category": "society",
+          "prompt": "2025 年 9 月，哪个南亚国家发生了受到广泛报道的青年抗议活动？",
+          "options": [
+            {
+              "id": "a",
+              "label": "尼泊尔"
+            },
+            {
+              "id": "b",
+              "label": "不丹"
+            },
+            {
+              "id": "c",
+              "label": "斯里兰卡"
+            },
+            {
+              "id": "unknown",
+              "label": "不知道／不确定"
+            }
+          ],
+          "correctOptionId": "a",
+          "unknownOptionId": "unknown",
+          "sourceUrl": "https://nepal.un.org/en/301226-statement-united-nations-nepal",
+          "sourcePublishedDate": "2025-09-09"
+        }
+      ]
+    },
+    {
+      "id": "2025_autumn",
+      "date": "2025-11-20",
+      "questions": [
+        {
+          "id": "melissa_jamaica",
+          "eventDate": "2025-10-28",
+          "category": "society",
+          "prompt": "2025 年 10 月底，牙买加遭遇了哪种严重自然灾害？",
+          "options": [
+            {
+              "id": "a",
+              "label": "飓风梅利莎登陆"
+            },
+            {
+              "id": "b",
+              "label": "持续暴雨引发山体滑坡"
+            },
+            {
+              "id": "c",
+              "label": "强震引发海啸"
+            },
+            {
+              "id": "unknown",
+              "label": "不知道／不确定"
+            }
+          ],
+          "correctOptionId": "a",
+          "unknownOptionId": "unknown",
+          "sourceUrl": "https://public.wmo.int/media/news/category-5-hurricane-melissa-hits-jamaica-and-caribbean-islands",
+          "sourcePublishedDate": "2025-10-28"
+        },
+        {
+          "id": "cop30_fire",
+          "eventDate": "2025-11-20",
+          "category": "society",
+          "prompt": "2025 年 11 月，巴西 COP30 会场发生了什么突发事件？",
+          "options": [
+            {
+              "id": "a",
+              "label": "蓝区发生火灾"
+            },
+            {
+              "id": "b",
+              "label": "主会场被洪水淹没"
+            },
+            {
+              "id": "c",
+              "label": "会场因地震坍塌"
+            },
+            {
+              "id": "unknown",
+              "label": "不知道／不确定"
+            }
+          ],
+          "correctOptionId": "a",
+          "unknownOptionId": "unknown",
+          "sourceUrl": "https://unfccc.int/news/joint-media-statement-from-the-cop30-presidency-and-un-climate-change",
+          "sourcePublishedDate": "2025-11-20"
+        },
+        {
+          "id": "wang_fuk_fire",
+          "eventDate": "2025-11-26",
+          "category": "society",
+          "prompt": "2025 年 11 月底，香港发生了哪件严重事故？",
+          "options": [
+            {
+              "id": "a",
+              "label": "大埔宏福苑火灾"
+            },
+            {
+              "id": "b",
+              "label": "大埔多栋住宅因山泥倾泻受损"
+            },
+            {
+              "id": "c",
+              "label": "将军澳港铁站因洪水关闭"
+            },
+            {
+              "id": "unknown",
+              "label": "不知道／不确定"
+            }
+          ],
+          "correctOptionId": "a",
+          "unknownOptionId": "unknown",
+          "sourceUrl": "https://www.info.gov.hk/gia/general/202511/26/P2025112600489p.htm",
+          "sourcePublishedDate": "2025-11-26"
+        }
+      ]
+    },
+    {
+      "id": "2026_spring",
+      "date": "2026-05-17",
+      "questions": [
+        {
+          "id": "artemis_ii",
+          "eventDate": "2026-04-01",
+          "category": "society",
+          "prompt": "2026 年 4 月，NASA 的载人探月计划取得了哪项进展？",
+          "options": [
+            {
+              "id": "a",
+              "label": "阿尔忒弥斯二号发射升空"
+            },
+            {
+              "id": "b",
+              "label": "阿尔忒弥斯二号再次取消发射"
+            },
+            {
+              "id": "c",
+              "label": "阿尔忒弥斯二号改为无人飞行"
+            },
+            {
+              "id": "unknown",
+              "label": "不知道／不确定"
+            }
+          ],
+          "correctOptionId": "a",
+          "unknownOptionId": "unknown",
+          "sourceUrl": "https://www.nasa.gov/news-release/liftoff-nasa-launches-astronauts-on-historic-artemis-moon-mission/",
+          "sourcePublishedDate": "2026-04-01"
+        },
+        {
+          "id": "ebola_emergency",
+          "eventDate": "2026-05-17",
+          "category": "society",
+          "prompt": "2026 年 5 月，世卫组织因哪种疫情宣布国际关注的公共卫生紧急事件？",
+          "options": [
+            {
+              "id": "a",
+              "label": "刚果民主共和国的埃博拉疫情"
+            },
+            {
+              "id": "b",
+              "label": "印度的登革热疫情"
+            },
+            {
+              "id": "c",
+              "label": "巴西的麻疹疫情"
+            },
+            {
+              "id": "unknown",
+              "label": "不知道／不确定"
+            }
+          ],
+          "correctOptionId": "a",
+          "unknownOptionId": "unknown",
+          "sourceUrl": "https://www.who.int/news/item/17-05-2026-epidemic-of-ebola-disease-in-the-democratic-republic-of-the-congo-and-uganda-determined-a-public-health-emergency-of-international-concern",
+          "sourcePublishedDate": "2026-05-17"
+        },
+        {
+          "id": "claude_fable",
+          "eventDate": "2026-06-09",
+          "category": "technology",
+          "prompt": "2026 年 6 月，Anthropic 公布了哪款新的 Claude 模型？",
+          "options": [
+            {
+              "id": "a",
+              "label": "Claude Fable 5"
+            },
+            {
+              "id": "b",
+              "label": "Claude Opus 4.1"
+            },
+            {
+              "id": "c",
+              "label": "Claude Sonnet 3.7"
+            },
+            {
+              "id": "unknown",
+              "label": "不知道／不确定"
+            }
+          ],
+          "correctOptionId": "a",
+          "unknownOptionId": "unknown",
+          "sourceUrl": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+          "sourcePublishedDate": "2026-06-09"
+        }
+      ]
+    },
+    {
+      "id": "2026_summer",
+      "date": "2026-08-10",
+      "questions": [
+        {
+          "id": "world_cup_2026",
+          "eventDate": "2026-07-19",
+          "category": "society",
+          "prompt": "2026 年男子足球世界杯的冠军是哪支国家队？",
+          "options": [
+            {
+              "id": "a",
+              "label": "西班牙"
+            },
+            {
+              "id": "b",
+              "label": "阿根廷"
+            },
+            {
+              "id": "c",
+              "label": "法国"
+            },
+            {
+              "id": "unknown",
+              "label": "不知道／不确定"
+            }
+          ],
+          "correctOptionId": "a",
+          "unknownOptionId": "unknown",
+          "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/spain-argentina-final-report-highlights",
+          "sourcePublishedDate": "2026-07-19"
+        },
+        {
+          "id": "colombia_quake",
+          "eventDate": "2026-08-10",
+          "category": "society",
+          "prompt": "2026 年 8 月，哥伦比亚发生了哪种重大自然灾害？",
+          "options": [
+            {
+              "id": "a",
+              "label": "7 级以上强震"
+            },
+            {
+              "id": "b",
+              "label": "特大洪灾"
+            },
+            {
+              "id": "c",
+              "label": "大型火山喷发"
+            },
+            {
+              "id": "unknown",
+              "label": "不知道／不确定"
+            }
+          ],
+          "correctOptionId": "a",
+          "unknownOptionId": "unknown",
+          "sourceUrl": "https://unsdg.un.org/latest/stories/coordinated-un-response-supporting-earthquake-relief-and-recovery-colombia",
+          "sourcePublishedDate": "2026-08-11"
+        },
+        {
+          "id": "gpt6_astra_launch",
+          "eventDate": "2026-09-03",
+          "category": "technology",
+          "prompt": "2026 年 9 月，OpenAI 公布了哪款新模型？",
+          "options": [
+            {
+              "id": "a",
+              "label": "GPT-6 Astra"
+            },
+            {
+              "id": "b",
+              "label": "GPT-5.2"
+            },
+            {
+              "id": "c",
+              "label": "o3-mini"
+            },
+            {
+              "id": "unknown",
+              "label": "不知道／不确定"
+            }
+          ],
+          "correctOptionId": "a",
+          "unknownOptionId": "unknown",
+          "sourceUrl": "https://openai.com/index/gpt-6-astra/",
+          "sourcePublishedDate": "2026-09-03"
+        }
+      ]
+    }
+  ]
+}
