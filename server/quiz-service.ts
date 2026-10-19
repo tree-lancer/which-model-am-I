@@ -1,8 +1,8 @@
 import { createHmac, timingSafeEqual } from "node:crypto";
-import questionnaire from "../data/questionnaires/current.json";
-import catalogJson from "../data/model_catalog.json";
-import { infer, type Answer, type Model } from "../src/inference-core";
-import { publicQuestion, replay, type Quiz } from "../src/quiz";
+import questionnaire from "../data/questionnaires/current.json" with { type: "json" };
+import catalogJson from "../data/model_catalog.json" with { type: "json" };
+import { infer, type Answer, type Model } from "../src/inference-core.js";
+import { publicQuestion, replay, type Quiz } from "../src/quiz.js";
 
 const quiz = questionnaire as Quiz;
 const catalog = catalogJson as Model[];

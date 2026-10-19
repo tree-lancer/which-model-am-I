@@ -1,6 +1,6 @@
 import { createMcpHandler, McpServer } from "@modelcontextprotocol/server";
 import { z } from "zod/v4";
-import { QuizError, startQuestionnaire, submitAnswer } from "../server/quiz-service";
+import { QuizError, startQuestionnaire, submitAnswer } from "../server/quiz-service.js";
 
 function response(value: object) {
   return { content: [{ type: "text" as const, text: JSON.stringify(value) }], structuredContent: value };
