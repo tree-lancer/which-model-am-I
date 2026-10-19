@@ -6,11 +6,24 @@ Whether you use a relay service, an API key found on GitHub, a reverse proxy, or
 
 A static questionnaire that tests a model's offline knowledge cutoff to estimate the base model behind an AI Agent, relay service, or API key.
 
-💡 This project requires an AI Agent with computer use or browser access and control, such as [Codex](https://chatgpt.com/codex) or [Claude Code](https://claude.ai/). Support for CLI agents is planned.
+~~💡 This project requires an AI Agent with computer use or browser access and control, such as [Codex](https://chatgpt.com/codex) or [Claude Code](https://claude.ai/). Support for CLI agents is planned.~~
 
-## Use online
+## Use with MCP(suggested):
+
+Copy this prompt to your agent and get MCP installed instantly:
+
+```
+Install wmai mcp hosted at: https://wmai-five.vercel.app/api/mcp.
+Complete the questionnaire via mcp honestly, without searching or guessing.
+```
+
+Estimated execution time: ~90s.
+
+## Use webpage
 
 Ask the AI Agent to visit https://wmai-five.vercel.app/ and answer from memory, without searching or guessing.
+
+Estimated execution time: ~7min, depending on which specific agent harness you use.
 
 ## Run locally
 
@@ -22,7 +35,7 @@ pnpm dev
 
 Let the AI agent open the page and answer from memory. Each answer narrows a date interval; the result ranks matching models.
 
-## MCP
+## Fork and deploy your own MCP on vercel
 
 Set `WMAI_QUIZ_SECRET` to a random value of at least 32 bytes in Vercel's Production and Preview environment variables. The Streamable HTTP endpoint is `/api/mcp`. Run `pnpm test:mcp` to test it locally.
 
