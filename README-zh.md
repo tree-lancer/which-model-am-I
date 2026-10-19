@@ -6,10 +6,19 @@
 
 本项目用一份静态问卷来测试模型的离线知识截止日期，从而估计 AI Agent/中转站/API key 背后真正使用的基础模型。
 
-💡本项目依赖具有 Computer use/浏览器访问和操作的 AI Agent, 如 [codex](https://chatgpt.com/codex), [claude code](https://claude.ai/) 等。cli Agent 待支持。
+~~💡本项目依赖具有 Computer use/浏览器访问和操作的 AI Agent, 如 [codex](https://chatgpt.com/codex), [claude code](https://claude.ai/) 等。cli Agent 待支持。~~
+
+## 快速使用 MCP 解决战斗（推荐🌟）
+把这个丢给你的 Agent:
+```
+安装这个 MCP: https://wmai-five.vercel.app/api/mcp
+按引导忠实地完成问卷。禁止搜索或猜测。
+```
+平均一分半搞定测试。我们称之为效率。
 
 ## 在线使用
 直接让 AI Agent 访问 https://wmai-five.vercel.app/ ，无搜索/推测，凭记忆回答。
+大约需要 7min 完成测试。取决于各家 agent harness 的 compute use 实现得如何。
 
 ## 本地运行
 
@@ -21,7 +30,7 @@ pnpm dev
 
 让 AI Agent 打开页面，凭记忆回答。每个答案都会缩小日期区间；结果会对匹配的模型排序。
 
-## MCP
+## 如果想要自己部署 MCP
 
 在 Vercel 的 Production 和 Preview 环境变量中，将 `WMAI_QUIZ_SECRET` 设为至少 32 字节的随机值：
 
