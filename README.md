@@ -6,7 +6,7 @@ Whether you use a relay service, an API key found on GitHub, a reverse proxy, or
 
 A static questionnaire that tests a model's offline knowledge cutoff to estimate the base model behind an AI Agent, relay service, or API key.
 
-💡 This project requires an AI Agent with computer use or browser access and control, such as [Codex](https://chatgpt.com/codex) or [Claude Code](https://claude.ai/). Support for CLI agents is planned.
+~~💡 This project requires an AI Agent with computer use or browser access and control, such as [Codex](https://chatgpt.com/codex) or [Claude Code](https://claude.ai/). Support for CLI agents is planned.~~
 
 ## Use with MCP(suggested):
 
