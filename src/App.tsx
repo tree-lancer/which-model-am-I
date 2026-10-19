@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import questionnaire from "../data/questionnaires/current.json";
 import { infer } from "./inference";
+import { replay, type Quiz, type ResultNode } from "./quiz";
+import type { Answer } from "./inference-core";
 import alibabaIcon from "./assets/providers/alibaba.svg";
 import anthropicIcon from "./assets/providers/anthropic.svg";
 import deepseekIcon from "./assets/providers/deepseek.svg";
@@ -8,49 +10,6 @@ import googleIcon from "./assets/providers/google.svg";
 import moonshotIcon from "./assets/providers/moonshot.svg";
 import openaiIcon from "./assets/providers/openai.svg";
 import zhipuIcon from "./assets/providers/zhipu.svg";
-
-type Option = { id: string; label: string };
-type Question = {
-  id: string;
-  eventDate: string;
-  prompt: string;
-  options: Option[];
-  correctOptionId: string;
-  unknownOptionId: string;
-};
-type Candidate = {
-  provider: string;
-  modelId: string;
-  cutoff: string;
-  basis: string;
-  evidenceUrl: string;
-  fit: number;
-};
-type CheckpointNode = {
-  type: "checkpoint";
-  id: string;
-  threshold: number;
-  questions: Question[];
-  next: { correct: string; incorrect: string };
-};
-type ResultNode = {
-  type: "result";
-  id: string;
-  range: { from: string | null; through: string | null };
-  candidateCount: number;
-  candidates: Candidate[];
-};
-type Node = CheckpointNode | ResultNode;
-type Quiz = {
-  version: string;
-  asOf: string;
-  catalogSize: number;
-  questionCount: number;
-  root: string;
-  nodes: Record<string, Node>;
-};
-type Answer = { questionId: string; optionId: string };
-type Position = { node: Node; questionIndex: number; checkpointDepth: number };
 
 const quiz = questionnaire as Quiz;
 const storageKey = `which-model-am-i:${quiz.version}`;
@@ -64,31 +23,10 @@ const providerInfo: Record<string, { label: string; icon: string }> = {
   Zhipu: { label: "智谱 · GLM", icon: zhipuIcon },
 };
 
-function replay(answers: Answer[]): Position | null {
-  let node = quiz.nodes[quiz.root];
-  let questionIndex = 0;
-  let checkpointDepth = 0;
-  let correctCount = 0;
-  for (const answer of answers) {
-    if (node.type !== "checkpoint") return null;
-    const question = node.questions[questionIndex];
-    if (question.id !== answer.questionId || !question.options.some((option) => option.id === answer.optionId)) return null;
-    correctCount += Number(answer.optionId === question.correctOptionId);
-    questionIndex += 1;
-    if (questionIndex === node.questions.length) {
-      node = quiz.nodes[node.next[correctCount >= node.threshold ? "correct" : "incorrect"]];
-      questionIndex = 0;
-      correctCount = 0;
-      checkpointDepth += 1;
-    }
-  }
-  return { node, questionIndex, checkpointDepth };
-}
-
 function readAnswers(): Answer[] {
   try {
     const value = JSON.parse(localStorage.getItem(storageKey) || "null");
-    if (!Array.isArray(value) || !replay(value)) return [];
+    if (!Array.isArray(value) || !replay(quiz, value)) return [];
     return value;
   } catch {
     return [];
@@ -117,7 +55,7 @@ function formatModelName(modelId: string): string {
 export default function App() {
   const [answers, setAnswers] = useState<Answer[]>(readAnswers);
   const [selected, setSelected] = useState<string | null>(null);
-  const position = replay(answers)!;
+  const position = replay(quiz, answers)!;
   const { node, questionIndex, checkpointDepth } = position;
   const estimate = node.type === "result" ? infer(answers, quiz.nodes) : null;
   const maxSteps = Math.ceil(Math.log2(quiz.questionCount / 3 + 1)) * 3;

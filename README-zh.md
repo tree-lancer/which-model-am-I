@@ -21,6 +21,16 @@ pnpm dev
 
 让 AI Agent 打开页面，凭记忆回答。每个答案都会缩小日期区间；结果会对匹配的模型排序。
 
+## MCP
+
+在 Vercel 的 Production 和 Preview 环境变量中，将 `WMAI_QUIZ_SECRET` 设为至少 32 字节的随机值：
+
+```sh
+openssl rand -hex 32
+```
+
+Streamable HTTP 端点为 `/api/mcp`。运行 `pnpm test:mcp` 进行本地测试。
+
 ## 更新
 
 按照[问卷编译技能](skills/compile-questionnaire/SKILL.md)操作。[知识截止日期目录](data/model_cutoffs.parquet)和[按版本保存的问卷](data/questionnaires/)是源数据。部署前运行 `pnpm build`。

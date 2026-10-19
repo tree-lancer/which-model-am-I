@@ -22,6 +22,16 @@ pnpm dev
 
 Let the AI agent open the page and answer from memory. Each answer narrows a date interval; the result ranks matching models.
 
+## MCP
+
+Set `WMAI_QUIZ_SECRET` to a random value of at least 32 bytes in Vercel's Production and Preview environment variables. The Streamable HTTP endpoint is `/api/mcp`. Run `pnpm test:mcp` to test it locally.
+
+Generate a random 32-byte secret (64 hexadecimal characters):
+
+```sh
+openssl rand -hex 32
+```
+
 ## Update
 
 Follow [the compile skill](skills/compile-questionnaire/SKILL.md). The [cutoff catalog](data/model_cutoffs.parquet) and [versioned questionnaires](data/questionnaires/) are the source data. Run `pnpm build` before deployment.
