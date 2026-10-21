@@ -588,6 +588,13 @@
     "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
   },
   {
+    "provider": "Alibaba",
+    "modelId": "qwen3.8-omni-flash",
+    "cutoff": "<2026-09-18",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+  },
+  {
     "provider": "Anthropic",
     "modelId": "claude-3-5-haiku-20241022",
     "cutoff": ">2024-06-30&<2024-08-01",
@@ -754,6 +761,20 @@
     "cutoff": ">2026-05-31&<2026-07-01",
     "basis": "official_reliable_knowledge_cutoff",
     "evidenceUrl": "https://platform.claude.com/docs/en/models/sonnet-5-5/overview"
+  },
+  {
+    "provider": "Baidu",
+    "modelId": "ernie-5.0",
+    "cutoff": "<2026-02-07",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://ernie.baidu.com/blog/posts/ernie5.0/"
+  },
+  {
+    "provider": "Baidu",
+    "modelId": "ernie-5.1",
+    "cutoff": "<2026-05-10",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://ernie.baidu.com/blog/posts/ernie-5.1-0508-release/"
   },
   {
     "provider": "DeepSeek",
@@ -978,6 +999,48 @@
     "cutoff": ">2024-12-31&<2025-02-01",
     "basis": "official_knowledge_cutoff_month",
     "evidenceUrl": "https://ai.google.dev/gemini-api/docs/gemini-3"
+  },
+  {
+    "provider": "MiniMax",
+    "modelId": "minimax-m2",
+    "cutoff": "<2025-10-28",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://www.minimax.io/news/minimax-m2"
+  },
+  {
+    "provider": "MiniMax",
+    "modelId": "minimax-m2.1",
+    "cutoff": "<2025-12-24",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://www.minimax.io/news/minimax-m21"
+  },
+  {
+    "provider": "MiniMax",
+    "modelId": "minimax-m2.5",
+    "cutoff": "<2026-02-13",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://www.minimax.io/news/minimax-m25"
+  },
+  {
+    "provider": "MiniMax",
+    "modelId": "minimax-m2.7",
+    "cutoff": "<2026-03-19",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://www.minimax.io/news/minimax-m27-en"
+  },
+  {
+    "provider": "MiniMax",
+    "modelId": "minimax-m3",
+    "cutoff": "<2026-06-02",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://www.minimax.io/blog/minimax-m3"
+  },
+  {
+    "provider": "MiniMax",
+    "modelId": "minimax-m3.1-flash",
+    "cutoff": "<2026-10-20",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://www.minimax.io/blog/minimax-m31f"
   },
   {
     "provider": "Moonshot",
@@ -1484,6 +1547,83 @@
     "evidenceUrl": "https://developers.openai.com/api/docs/models/o4-mini-deep-research"
   },
   {
+    "provider": "TypeSafe",
+    "modelId": "jev-1.0",
+    "cutoff": "<2026-09-16",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://typesafe.ai/blog/introducing-system-one-models-and-jev"
+  },
+  {
+    "provider": "Xiaomi",
+    "modelId": "mimo-7b-rl",
+    "cutoff": "<2025-05-13",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://arxiv.org/abs/2505.07608"
+  },
+  {
+    "provider": "Xiaomi",
+    "modelId": "mimo-7b-rl-0530",
+    "cutoff": "<2025-05-31",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://github.com/XiaomiMiMo/MiMo"
+  },
+  {
+    "provider": "Xiaomi",
+    "modelId": "mimo-v2-flash",
+    "cutoff": "<2025-12-17",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://mimo.mi.com/docs/en-US/updates/model"
+  },
+  {
+    "provider": "Xiaomi",
+    "modelId": "mimo-v2-omni",
+    "cutoff": "<2026-03-19",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://mimo.mi.com/docs/en-US/updates/model"
+  },
+  {
+    "provider": "Xiaomi",
+    "modelId": "mimo-v2-pro",
+    "cutoff": "<2026-03-19",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://mimo.mi.com/docs/en-US/updates/model"
+  },
+  {
+    "provider": "Xiaomi",
+    "modelId": "mimo-v2.5",
+    "cutoff": "<2026-04-24",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://mimo.mi.com/docs/en-US/updates/model"
+  },
+  {
+    "provider": "Xiaomi",
+    "modelId": "mimo-v2.5-pro",
+    "cutoff": "<2026-04-24",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://mimo.mi.com/docs/en-US/updates/model"
+  },
+  {
+    "provider": "Xiaomi",
+    "modelId": "mimo-v2.6-flash",
+    "cutoff": "<2026-09-23",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://mimo.mi.com/docs/en-US/updates/model"
+  },
+  {
+    "provider": "Xiaomi",
+    "modelId": "mimo-v2.6-pro",
+    "cutoff": "<2026-09-23",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://mimo.mi.com/docs/en-US/updates/model"
+  },
+  {
+    "provider": "Xiaomi",
+    "modelId": "mimo-v2.6-pro-ultraspeed",
+    "cutoff": "<2026-09-23",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://mimo.mi.com/docs/en-US/updates/model"
+  },
+  {
     "provider": "Zhipu",
     "modelId": "glm-4.5",
     "cutoff": "<2025-08-07",
@@ -1545,5 +1685,12 @@
     "cutoff": "<2026-08-15",
     "basis": "release_date_upper_bound",
     "evidenceUrl": "https://z.ai/blog/glm-5.3"
+  },
+  {
+    "provider": "Zhipu",
+    "modelId": "glm-5.3-flash",
+    "cutoff": "<2026-08-27",
+    "basis": "release_date_upper_bound",
+    "evidenceUrl": "https://z.ai/blog/glm-5.3-flash"
   }
 ]

@@ -44,6 +44,11 @@ test("MCP quiz completes the reported November 2025 path", async () => {
     assert.equal(result.upperBoundIsSoft, true);
     assert.ok(result.excluded.some((model: { modelId: string }) => model.modelId === "claude-fable-5"));
     assert.equal(result.excluded.length, 19);
+    assert.ok(result.undated.some((model: { modelId: string }) => model.modelId === "kimi-k2.5"));
+    assert.ok(result.undated.some((model: { modelId: string }) => model.modelId === "deepseek-v3.2"));
+    assert.ok(result.undated.some((model: { modelId: string }) => model.modelId === "qwen3.8-max"));
+    assert.ok(result.undated.some((model: { modelId: string }) => model.modelId === "mimo-v2-flash"));
+    assert.ok(result.undated.some((model: { modelId: string }) => model.modelId === "jev-1.0"));
 
     const legacyTransport = new StreamableHTTPClientTransport(new URL("http://test.local/api/mcp"), {
       fetch: (url, init) => handler.fetch(new Request(url, init)),

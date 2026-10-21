@@ -5,22 +5,30 @@ import { replay, type Quiz, type ResultNode } from "./quiz";
 import type { Answer } from "./inference-core";
 import alibabaIcon from "./assets/providers/alibaba.svg";
 import anthropicIcon from "./assets/providers/anthropic.svg";
+import baiduIcon from "./assets/providers/baidu.svg";
 import deepseekIcon from "./assets/providers/deepseek.svg";
 import googleIcon from "./assets/providers/google.svg";
+import minimaxIcon from "./assets/providers/minimax.svg";
 import moonshotIcon from "./assets/providers/moonshot.svg";
 import openaiIcon from "./assets/providers/openai.svg";
 import zhipuIcon from "./assets/providers/zhipu.svg";
+import xiaomiIcon from "./assets/providers/xiaomi.svg";
+import typesafeIcon from "./assets/providers/typesafe.svg";
 
 const quiz = questionnaire as Quiz;
 const storageKey = `which-model-am-i:${quiz.version}`;
 const providerInfo: Record<string, { label: string; icon: string }> = {
   Alibaba: { label: "阿里巴巴 · 通义千问", icon: alibabaIcon },
   Anthropic: { label: "Anthropic · Claude", icon: anthropicIcon },
+  Baidu: { label: "百度 · 文心", icon: baiduIcon },
   DeepSeek: { label: "DeepSeek", icon: deepseekIcon },
   Google: { label: "Google · Gemini", icon: googleIcon },
+  MiniMax: { label: "MiniMax", icon: minimaxIcon },
   Moonshot: { label: "月之暗面 · Kimi", icon: moonshotIcon },
   OpenAI: { label: "OpenAI", icon: openaiIcon },
   Zhipu: { label: "智谱 · GLM", icon: zhipuIcon },
+  Xiaomi: { label: "小米 · MiMo", icon: xiaomiIcon },
+  TypeSafe: { label: "TypeSafe · Jev", icon: typesafeIcon },
 };
 
 function readAnswers(): Answer[] {
@@ -52,12 +60,30 @@ function formatModelName(modelId: string): string {
     .replace(/^kimi\b/i, "Kimi");
 }
 
+function diverseCandidates<T extends { provider: string }>(candidates: T[], limit: number): T[] {
+  const selected: T[] = [];
+  const seen = new Set<T>();
+  const counts = new Map<string, number>();
+  for (let round = 0; selected.length < limit && round < candidates.length; round += 1) {
+    for (const candidate of candidates) {
+      if (selected.length === limit) break;
+      if (!seen.has(candidate) && (counts.get(candidate.provider) || 0) === round) {
+        selected.push(candidate);
+        seen.add(candidate);
+        counts.set(candidate.provider, round + 1);
+      }
+    }
+  }
+  return selected;
+}
+
 export default function App() {
   const [answers, setAnswers] = useState<Answer[]>(readAnswers);
   const [selected, setSelected] = useState<string | null>(null);
   const position = replay(quiz, answers)!;
   const { node, questionIndex, checkpointDepth } = position;
   const estimate = node.type === "result" ? infer(answers, quiz.nodes) : null;
+  const undatedCandidates = estimate ? diverseCandidates(estimate.undated, 12) : [];
   const maxSteps = Math.ceil(Math.log2(quiz.questionCount / 3 + 1)) * 3;
 
   useEffect(() => {
@@ -134,7 +160,7 @@ export default function App() {
           <section className="card result-card" aria-labelledby="result-title">
             <div className="result-symbol" aria-hidden="true">鉴</div>
             <p className="result-kicker">识别结果 · 共 {checkpointDepth} 轮核对</p>
-            <h1 id="result-title">{estimate!.matches.length > 0 ? "可能的基础模型是" : "暂无匹配模型"}</h1>
+            <h1 id="result-title">{estimate!.matches.length > 0 ? "可能的基础模型是" : "暂无可核验的匹配模型"}</h1>
             <div className="range-box">
               <span>知识截止日期之{estimate!.hasUnknownUpper ? "参考区间" : "下界"}</span>
               <strong>{formatRange(estimate!)}</strong>
@@ -159,6 +185,29 @@ export default function App() {
               </div>
             )}
             {estimate!.matches.length > 10 && <p className="overflow-note">另有 {estimate!.matches.length - 10} 个有公开知识日期依据的候选模型未显示。</p>}
+            {undatedCandidates.length > 0 && (
+              <section className="excluded-section" aria-labelledby="undated-title">
+                <h2 id="undated-title">截止日期未公开的候选 · {estimate!.undated.length}</h2>
+                <div className="candidate-list">
+                  {undatedCandidates.map((candidate) => {
+                    const provider = providerInfo[candidate.provider];
+                    return (
+                      <div className="candidate" key={`${candidate.provider}:${candidate.modelId}`}>
+                        <span className="candidate-rank">?</span>
+                        <span className="provider-icon">{provider ? <img src={provider.icon} alt="" /> : candidate.provider.slice(0, 1)}</span>
+                        <div className="candidate-detail">
+                          <span className="candidate-provider">{provider?.label || candidate.provider}</span>
+                          <strong>{formatModelName(candidate.modelId)}</strong>
+                          <span className="candidate-cutoff">发布日期上界 {candidate.cutoff}</span>
+                        </div>
+                        <a href={candidate.evidenceUrl} target="_blank" rel="noreferrer" aria-label={`查看 ${candidate.modelId} 的证据`}>来源 ↗</a>
+                      </div>
+                    );
+                  })}
+                </div>
+                {estimate!.undated.length > 12 && <p className="overflow-note">另有 {estimate!.undated.length - 12} 个候选未显示。</p>}
+              </section>
+            )}
             {estimate!.excluded.length > 0 && (
               <section className="excluded-section" aria-labelledby="excluded-title">
                 <h2 id="excluded-title">❌ 不可能是哪些模型· {estimate!.excluded.length}</h2>

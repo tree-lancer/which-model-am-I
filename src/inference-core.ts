@@ -49,6 +49,17 @@ export function infer(answers: Answer[], nodes: Record<string, Node>, catalog: M
     };
     return width(left) - width(right) || left.provider.localeCompare(right.provider) || left.modelId.localeCompare(right.modelId);
   });
+  const undated = catalog.filter((model) => {
+    if (model.basis !== "release_date_upper_bound") return false;
+    const [, upper] = bounds(model.cutoff);
+    return !from || !upper || upper >= from;
+  }).sort((left, right) => {
+    const [, leftUpper] = bounds(left.cutoff);
+    const [, rightUpper] = bounds(right.cutoff);
+    const reference = through || from;
+    const distance = (upper: string | null) => reference && upper ? Math.abs(Date.parse(upper) - Date.parse(reference) - 150 * 86400000) : 0;
+    return distance(leftUpper) - distance(rightUpper) || left.provider.localeCompare(right.provider) || left.modelId.localeCompare(right.modelId);
+  });
   const excluded = through ? catalog.filter((model) => {
     if (model.basis === "release_date_upper_bound") return false;
     const [lower] = bounds(model.cutoff);
@@ -58,5 +69,5 @@ export function infer(answers: Answer[], nodes: Record<string, Node>, catalog: M
     const [rightLower] = bounds(right.cutoff);
     return leftLower!.localeCompare(rightLower!) || left.provider.localeCompare(right.provider) || left.modelId.localeCompare(right.modelId);
   }) : [];
-  return { from, through, matches: matches as Model[], excluded: excluded as Model[], hasUnknownUpper: unknownDates.length > 0 };
+  return { from, through, matches: matches as Model[], undated: undated as Model[], excluded: excluded as Model[], hasUnknownUpper: unknownDates.length > 0 };
 }

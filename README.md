@@ -1,6 +1,6 @@
 # Which Model Am I?
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-2d6a4f.svg)](LICENSE) [![Skills: compile-questionnaire](https://img.shields.io/badge/Skills-compile--questionnaire-6f42c1.svg)](skills/compile-questionnaire/SKILL.md) [![Questionnaire: v1.2.0](https://img.shields.io/badge/Questionnaire-v1.2.0-0969da.svg)](data/questionnaires/1.2.0/questionnaire.json) [![简体中文](https://img.shields.io/badge/README-%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-d73a49.svg)](README-zh.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-2d6a4f.svg)](LICENSE) [![Skills: compile-questionnaire](https://img.shields.io/badge/Skills-compile--questionnaire-6f42c1.svg)](skills/compile-questionnaire/SKILL.md) [![Questionnaire: v1.3.0](https://img.shields.io/badge/Questionnaire-v1.3.0-0969da.svg)](data/questionnaires/1.3.0/questionnaire.json) [![简体中文](https://img.shields.io/badge/README-%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-d73a49.svg)](README-zh.md)
 
 Whether you use a relay service, an API key found on GitHub, a reverse proxy, or even an official API key, you can run into degraded responses or routing to an older model. Don't wait until it ruins your work to find out.
 
@@ -54,6 +54,8 @@ Follow [the compile skill](skills/compile-questionnaire/SKILL.md). The [cutoff c
 |  | Provider |  | Provider |
 | :---: | --- | :---: | --- |
 | <img src="src/assets/providers/alibaba.svg" alt="" width="28" height="28"> | Alibaba | <img src="src/assets/providers/anthropic.svg" alt="" width="28" height="28"> | Anthropic |
+| <img src="src/assets/providers/baidu.svg" alt="" width="28" height="28"> | Baidu | <img src="src/assets/providers/minimax.svg" alt="" width="28" height="28"> | MiniMax |
 | <img src="src/assets/providers/deepseek.svg" alt="" width="28" height="28"> | DeepSeek | <img src="src/assets/providers/google.svg" alt="" width="28" height="28"> | Google |
 | <img src="src/assets/providers/moonshot.svg" alt="" width="28" height="28"> | Moonshot | <img src="src/assets/providers/openai.svg" alt="" width="28" height="28"> | OpenAI |
-| <img src="src/assets/providers/zhipu.svg" alt="" width="28" height="28"> | Zhipu |  |  |
+| <img src="src/assets/providers/zhipu.svg" alt="" width="28" height="28"> | Zhipu | <img src="src/assets/providers/xiaomi.svg" alt="" width="28" height="28"> | Xiaomi |
+| <img src="src/assets/providers/typesafe.svg" alt="" width="28" height="28"> | TypeSafe |  |  |

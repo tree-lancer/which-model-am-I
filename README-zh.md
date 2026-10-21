@@ -1,6 +1,6 @@
 # Which Model Am I?
 
-[![许可证：MIT](https://img.shields.io/badge/License-MIT-2d6a4f.svg)](LICENSE) [![技能：compile-questionnaire](https://img.shields.io/badge/Skills-compile--questionnaire-6f42c1.svg)](skills/compile-questionnaire/SKILL.md) [![问卷：v1.2.0](https://img.shields.io/badge/Questionnaire-v1.2.0-0969da.svg)](data/questionnaires/1.2.0/questionnaire.json) [![English](https://img.shields.io/badge/README-English-d73a49.svg)](README.md)
+[![许可证：MIT](https://img.shields.io/badge/License-MIT-2d6a4f.svg)](LICENSE) [![技能：compile-questionnaire](https://img.shields.io/badge/Skills-compile--questionnaire-6f42c1.svg)](skills/compile-questionnaire/SKILL.md) [![问卷：v1.3.0](https://img.shields.io/badge/Questionnaire-v1.3.0-0969da.svg)](data/questionnaires/1.3.0/questionnaire.json) [![English](https://img.shields.io/badge/README-English-d73a49.svg)](README.md)
 
 使用中转站的，从 github 上检索来的、反代来的, 甚至官方提供的 API Key, 都不可避免地遇到降智、路由到落后模型的问题。不要发现它，直到它把你的工作搞砸。
 
@@ -49,6 +49,8 @@ Streamable HTTP 端点为 `/api/mcp`。运行 `pnpm test:mcp` 进行本地测试
 |  | 提供商 |  | 提供商 |
 | :---: | --- | :---: | --- |
 | <img src="src/assets/providers/alibaba.svg" alt="" width="28" height="28"> | Alibaba | <img src="src/assets/providers/anthropic.svg" alt="" width="28" height="28"> | Anthropic |
+| <img src="src/assets/providers/baidu.svg" alt="" width="28" height="28"> | Baidu | <img src="src/assets/providers/minimax.svg" alt="" width="28" height="28"> | MiniMax |
 | <img src="src/assets/providers/deepseek.svg" alt="" width="28" height="28"> | DeepSeek | <img src="src/assets/providers/google.svg" alt="" width="28" height="28"> | Google |
 | <img src="src/assets/providers/moonshot.svg" alt="" width="28" height="28"> | Moonshot | <img src="src/assets/providers/openai.svg" alt="" width="28" height="28"> | OpenAI |
-| <img src="src/assets/providers/zhipu.svg" alt="" width="28" height="28"> | Zhipu |  |  |
+| <img src="src/assets/providers/zhipu.svg" alt="" width="28" height="28"> | Zhipu | <img src="src/assets/providers/xiaomi.svg" alt="" width="28" height="28"> | Xiaomi |
+| <img src="src/assets/providers/typesafe.svg" alt="" width="28" height="28"> | TypeSafe |  |  |

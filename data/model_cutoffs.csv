@@ -83,6 +83,7 @@ Alibaba,qwen3.8-27b,<2026-08-18,release_date_upper_bound,,https://help.aliyun.co
 Alibaba,qwen3.8-flash,<2026-08-27,release_date_upper_bound,,https://help.aliyun.com/zh/model-studio/newly-released-models,,Alibaba Model Studio release-log date; cutoff itself is undisclosed.
 Alibaba,qwen3.8-max,<2026-08-03,release_date_upper_bound,,https://help.aliyun.com/zh/model-studio/newly-released-models,,Alibaba Model Studio release-log date; cutoff itself is undisclosed.
 Alibaba,qwen3.8-max-0902,<2026-09-03,release_date_upper_bound,,https://help.aliyun.com/zh/model-studio/newly-released-models,,Alibaba Model Studio release-log date; cutoff itself is undisclosed.
+Alibaba,qwen3.8-omni-flash,<2026-09-18,release_date_upper_bound,,https://help.aliyun.com/zh/model-studio/newly-released-models,,Official model announcement gives only an upper bound; knowledge cutoff undisclosed.
 Anthropic,claude-3-5-haiku-20241022,>2024-06-30&<2024-08-01,official_knowledge_cutoff_month,,https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/deprecations/partner-models,https://www.anthropic.com/transparency,
 Anthropic,claude-3-5-sonnet-20240620,>2024-03-31&<2024-05-01,official_knowledge_cutoff_month,,https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/deprecations/partner-models,https://www.anthropic.com/transparency,
 Anthropic,claude-3-5-sonnet-20241022,>2024-07-31&<2024-09-01,official_knowledge_cutoff_month,,https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/deprecations/partner-models,https://www.anthropic.com/transparency,
@@ -107,6 +108,8 @@ Anthropic,claude-sonnet-4-5-20250929,>2024-12-31&<2025-02-01,official_reliable_k
 Anthropic,claude-sonnet-4-6,>2025-07-31&<2025-09-01,official_reliable_knowledge_cutoff,>2025-12-31&<2026-02-01,https://platform.claude.com/docs/en/models/sonnet-4-6/overview,https://www.anthropic.com/transparency,Official model page says August 2025; Anthropic transparency page says May 2025.
 Anthropic,claude-sonnet-5,>2025-12-31&<2026-02-01,official_reliable_knowledge_cutoff,>2025-12-31&<2026-02-01,https://platform.claude.com/docs/en/models/sonnet-5/overview,https://www.anthropic.com/transparency,
 Anthropic,claude-sonnet-5-5,>2026-05-31&<2026-07-01,official_reliable_knowledge_cutoff,>2026-05-31&<2026-07-01,https://platform.claude.com/docs/en/models/sonnet-5-5/overview,https://www.anthropic.com/transparency,
+Baidu,ernie-5.0,<2026-02-07,release_date_upper_bound,,https://ernie.baidu.com/blog/posts/ernie5.0/,,Official model announcement gives only an upper bound; knowledge cutoff undisclosed.
+Baidu,ernie-5.1,<2026-05-10,release_date_upper_bound,,https://ernie.baidu.com/blog/posts/ernie-5.1-0508-release/,,Official model announcement gives only an upper bound; knowledge cutoff undisclosed.
 DeepSeek,deepseek-r1,<2025-01-21,release_date_upper_bound,,https://www.deepseek.com/en/news/deepseek-r1/,https://help.aliyun.com/zh/model-studio/newly-released-models,Official launch date gives only an upper bound on undisclosed cutoff.
 DeepSeek,deepseek-r1-0528,<2025-06-05,release_date_upper_bound,,https://help.aliyun.com/zh/model-studio/newly-released-models,,Alibaba Model Studio release-log date; cutoff itself is undisclosed.
 DeepSeek,deepseek-r1-distill-qwen-1.5b,<2025-02-06,release_date_upper_bound,,https://help.aliyun.com/zh/model-studio/newly-released-models,,Alibaba Model Studio release-log date; cutoff itself is undisclosed.
@@ -139,6 +142,12 @@ Google,gemini-3.1-pro-preview,>2024-12-31&<2025-02-01,official_knowledge_cutoff_
 Google,gemini-3.5-flash,>2024-12-31&<2025-02-01,official_knowledge_cutoff_month,,https://ai.google.dev/gemini-api/docs/gemini-3,,
 Google,gemini-3.5-flash-lite,>2024-12-31&<2025-02-01,official_knowledge_cutoff_month,,https://ai.google.dev/gemini-api/docs/gemini-3,,
 Google,gemini-3.6-flash,>2024-12-31&<2025-02-01,official_knowledge_cutoff_month,,https://ai.google.dev/gemini-api/docs/gemini-3,,
+MiniMax,minimax-m2,<2025-10-28,release_date_upper_bound,,https://www.minimax.io/news/minimax-m2,,Official model announcement gives only an upper bound; knowledge cutoff undisclosed.
+MiniMax,minimax-m2.1,<2025-12-24,release_date_upper_bound,,https://www.minimax.io/news/minimax-m21,,Official model announcement gives only an upper bound; knowledge cutoff undisclosed.
+MiniMax,minimax-m2.5,<2026-02-13,release_date_upper_bound,,https://www.minimax.io/news/minimax-m25,,Official model announcement gives only an upper bound; knowledge cutoff undisclosed.
+MiniMax,minimax-m2.7,<2026-03-19,release_date_upper_bound,,https://www.minimax.io/news/minimax-m27-en,,Official model announcement gives only an upper bound; knowledge cutoff undisclosed.
+MiniMax,minimax-m3,<2026-06-02,release_date_upper_bound,,https://www.minimax.io/blog/minimax-m3,,Official model announcement gives only an upper bound; knowledge cutoff undisclosed.
+MiniMax,minimax-m3.1-flash,<2026-10-20,release_date_upper_bound,,https://www.minimax.io/blog/minimax-m31f,https://ir.minimax.io/news-events/new-releases,Official 2026-10-19 release gives only an upper bound; knowledge cutoff undisclosed.
 Moonshot,kimi-k2-base,<2025-07-17,release_date_upper_bound,,https://help.aliyun.com/zh/model-studio/newly-released-models,https://github.com/MoonshotAI/Kimi-K2,"Alibaba lists Kimi K2 by July 16, 2025; actual knowledge cutoff is undisclosed."
 Moonshot,kimi-k2-instruct,<2025-07-17,release_date_upper_bound,,https://help.aliyun.com/zh/model-studio/newly-released-models,https://github.com/MoonshotAI/Kimi-K2,"Alibaba lists Kimi K2 by July 16, 2025; actual knowledge cutoff is undisclosed."
 Moonshot,kimi-k2-thinking,<2025-11-11,release_date_upper_bound,,https://help.aliyun.com/zh/model-studio/newly-released-models,,Alibaba Model Studio release-log date; cutoff itself is undisclosed.
@@ -211,6 +220,17 @@ OpenAI,o3-mini,=2023-10-01,official_knowledge_cutoff,,https://developers.openai.
 OpenAI,o3-pro,=2024-06-01,official_knowledge_cutoff,,https://developers.openai.com/api/docs/models/o3-pro,,
 OpenAI,o4-mini,=2024-06-01,official_knowledge_cutoff,,https://developers.openai.com/api/docs/models/o4-mini,,
 OpenAI,o4-mini-deep-research,=2024-06-01,official_knowledge_cutoff,,https://developers.openai.com/api/docs/models/o4-mini-deep-research,,
+TypeSafe,jev-1.0,<2026-09-16,release_date_upper_bound,,https://typesafe.ai/blog/introducing-system-one-models-and-jev,https://typesafe.ai/,"TypeSafe launched Jev September 15, 2026; structured decision model, knowledge cutoff undisclosed."
+Xiaomi,mimo-7b-rl,<2025-05-13,release_date_upper_bound,,https://arxiv.org/abs/2505.07608,https://github.com/XiaomiMiMo/MiMo,"Xiaomi technical report was submitted May 12, 2025; knowledge cutoff undisclosed."
+Xiaomi,mimo-7b-rl-0530,<2025-05-31,release_date_upper_bound,,https://github.com/XiaomiMiMo/MiMo,https://huggingface.co/XiaomiMiMo/MiMo-7B-RL-0530,"Xiaomi GitHub update dated May 30, 2025; knowledge cutoff undisclosed."
+Xiaomi,mimo-v2-flash,<2025-12-17,release_date_upper_bound,,https://mimo.mi.com/docs/en-US/updates/model,,"Xiaomi model release log dated December 16, 2025; knowledge cutoff undisclosed."
+Xiaomi,mimo-v2-omni,<2026-03-19,release_date_upper_bound,,https://mimo.mi.com/docs/en-US/updates/model,,"Xiaomi model release log dated March 18, 2026; knowledge cutoff undisclosed."
+Xiaomi,mimo-v2-pro,<2026-03-19,release_date_upper_bound,,https://mimo.mi.com/docs/en-US/updates/model,,"Xiaomi model release log dated March 18, 2026; knowledge cutoff undisclosed."
+Xiaomi,mimo-v2.5,<2026-04-24,release_date_upper_bound,,https://mimo.mi.com/docs/en-US/updates/model,,"Xiaomi model release log dated April 23, 2026; knowledge cutoff undisclosed."
+Xiaomi,mimo-v2.5-pro,<2026-04-24,release_date_upper_bound,,https://mimo.mi.com/docs/en-US/updates/model,,"Xiaomi model release log dated April 23, 2026; knowledge cutoff undisclosed."
+Xiaomi,mimo-v2.6-flash,<2026-09-23,release_date_upper_bound,,https://mimo.mi.com/docs/en-US/updates/model,,"Xiaomi model release log dated September 22, 2026; knowledge cutoff undisclosed."
+Xiaomi,mimo-v2.6-pro,<2026-09-23,release_date_upper_bound,,https://mimo.mi.com/docs/en-US/updates/model,,"Xiaomi model release log dated September 22, 2026; knowledge cutoff undisclosed."
+Xiaomi,mimo-v2.6-pro-ultraspeed,<2026-09-23,release_date_upper_bound,,https://mimo.mi.com/docs/en-US/updates/model,,"Xiaomi model release log dated September 22, 2026; knowledge cutoff undisclosed."
 Zhipu,glm-4.5,<2025-08-07,release_date_upper_bound,,https://help.aliyun.com/zh/model-studio/newly-released-models,,Alibaba Model Studio release-log date; cutoff itself is undisclosed.
 Zhipu,glm-4.5-air,<2025-08-07,release_date_upper_bound,,https://help.aliyun.com/zh/model-studio/newly-released-models,,Alibaba Model Studio release-log date; cutoff itself is undisclosed.
 Zhipu,glm-4.6,<2025-10-22,release_date_upper_bound,,https://help.aliyun.com/zh/model-studio/newly-released-models,,Alibaba Model Studio release-log date; cutoff itself is undisclosed.
@@ -220,3 +240,4 @@ Zhipu,glm-5.1,<2026-04-15,release_date_upper_bound,,https://help.aliyun.com/zh/m
 Zhipu,glm-5.2,<2026-06-17,release_date_upper_bound,,https://help.aliyun.com/zh/model-studio/newly-released-models,,Alibaba Model Studio release-log date; cutoff itself is undisclosed.
 Zhipu,glm-5.2-fast-preview,<2026-07-10,release_date_upper_bound,,https://help.aliyun.com/zh/model-studio/newly-released-models,,Alibaba Model Studio release-log date; cutoff itself is undisclosed.
 Zhipu,glm-5.3,<2026-08-15,release_date_upper_bound,,https://z.ai/blog/glm-5.3,https://help.aliyun.com/zh/model-studio/newly-released-models,Official launch date gives only an upper bound on undisclosed cutoff.
+Zhipu,glm-5.3-flash,<2026-08-27,release_date_upper_bound,,https://z.ai/blog/glm-5.3-flash,https://help.aliyun.com/en/model-studio/newly-released-models,Official model announcement gives only an upper bound; knowledge cutoff undisclosed.

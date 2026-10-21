@@ -1,11 +1,107 @@
 {
   "schemaVersion": 2,
-  "version": "1.2.0",
-  "asOf": "2026-10-14",
-  "catalogSize": 221,
-  "questionCount": 21,
+  "version": "1.3.0",
+  "asOf": "2026-10-21",
+  "catalogSize": 242,
+  "questionCount": 33,
   "root": "checkpoint_2025_summer",
   "nodes": {
+    "checkpoint_2024_autumn": {
+      "type": "checkpoint",
+      "id": "checkpoint_2024_autumn",
+      "date": "2024-11-06",
+      "threshold": 2,
+      "questions": [
+        {
+          "id": "valencia_floods",
+          "eventDate": "2024-10-29",
+          "category": "society",
+          "prompt": "2024 年 10 月底，西班牙瓦伦西亚地区遭遇了哪种严重灾害？",
+          "options": [
+            {
+              "id": "b",
+              "label": "大范围山火"
+            },
+            {
+              "id": "a",
+              "label": "突发洪水"
+            },
+            {
+              "id": "c",
+              "label": "强烈地震"
+            },
+            {
+              "id": "unknown",
+              "label": "不知道／不确定"
+            }
+          ],
+          "correctOptionId": "a",
+          "unknownOptionId": "unknown",
+          "sourceUrl": "https://mapping.emergency.copernicus.eu/news/flood-in-valencia-region-spain/",
+          "sourcePublishedDate": "2024-10-29"
+        },
+        {
+          "id": "us_election_2024",
+          "eventDate": "2024-11-06",
+          "category": "society",
+          "prompt": "2024 年美国总统选举由哪位候选人胜出？",
+          "options": [
+            {
+              "id": "c",
+              "label": "吉尔·斯坦"
+            },
+            {
+              "id": "b",
+              "label": "卡玛拉·哈里斯"
+            },
+            {
+              "id": "a",
+              "label": "唐纳德·特朗普"
+            },
+            {
+              "id": "unknown",
+              "label": "不知道／不确定"
+            }
+          ],
+          "correctOptionId": "a",
+          "unknownOptionId": "unknown",
+          "sourceUrl": "https://apnews.com/article/us-election-trump-global-reaction-7f7d4c5f6b84f263d7c49bb4978ab418",
+          "sourcePublishedDate": "2024-11-06"
+        },
+        {
+          "id": "korea_martial_law",
+          "eventDate": "2024-12-03",
+          "category": "society",
+          "prompt": "2024 年 12 月初，韩国总统尹锡悦突然宣布了什么措施？",
+          "options": [
+            {
+              "id": "a",
+              "label": "实施戒严"
+            },
+            {
+              "id": "c",
+              "label": "解散执政党"
+            },
+            {
+              "id": "b",
+              "label": "提前举行总统选举"
+            },
+            {
+              "id": "unknown",
+              "label": "不知道／不确定"
+            }
+          ],
+          "correctOptionId": "a",
+          "unknownOptionId": "unknown",
+          "sourceUrl": "https://apnews.com/article/south-korea-yoon-martial-law-997c22ac93f6a9bece68454597e577c1",
+          "sourcePublishedDate": "2024-12-03"
+        }
+      ],
+      "next": {
+        "correct": "checkpoint_2025_spring",
+        "incorrect": "checkpoint_2024_summer"
+      }
+    },
     "checkpoint_2024_spring": {
       "type": "checkpoint",
       "id": "checkpoint_2024_spring",
@@ -98,8 +194,8 @@
         }
       ],
       "next": {
-        "correct": "result_001",
-        "incorrect": "result_000"
+        "correct": "result_0001",
+        "incorrect": "result_0000"
       }
     },
     "checkpoint_2024_summer": {
@@ -194,7 +290,7 @@
         }
       ],
       "next": {
-        "correct": "checkpoint_2025_winter",
+        "correct": "result_001",
         "incorrect": "checkpoint_2024_spring"
       }
     },
@@ -290,8 +386,104 @@
         }
       ],
       "next": {
-        "correct": "result_101",
-        "incorrect": "result_100"
+        "correct": "result_1001",
+        "incorrect": "result_1000"
+      }
+    },
+    "checkpoint_2025_spring": {
+      "type": "checkpoint",
+      "id": "checkpoint_2025_spring",
+      "date": "2025-05-10",
+      "threshold": 2,
+      "questions": [
+        {
+          "id": "pope_leo_xiv",
+          "eventDate": "2025-05-08",
+          "category": "society",
+          "prompt": "2025 年 5 月选出的新教皇采用了哪个名号？",
+          "options": [
+            {
+              "id": "c",
+              "label": "庇护十三世"
+            },
+            {
+              "id": "a",
+              "label": "良十四世"
+            },
+            {
+              "id": "b",
+              "label": "本笃十七世"
+            },
+            {
+              "id": "unknown",
+              "label": "不知道／不确定"
+            }
+          ],
+          "correctOptionId": "a",
+          "unknownOptionId": "unknown",
+          "sourceUrl": "https://www.vaticannews.va/en/pope/news/2025-05/cardinal-elected-pope-papal-name.html",
+          "sourcePublishedDate": "2025-05-08"
+        },
+        {
+          "id": "india_pakistan_truce",
+          "eventDate": "2025-05-10",
+          "category": "society",
+          "prompt": "2025 年 5 月，印巴军事对峙数日后双方宣布了什么？",
+          "options": [
+            {
+              "id": "a",
+              "label": "停火"
+            },
+            {
+              "id": "b",
+              "label": "共同举行军事演习"
+            },
+            {
+              "id": "c",
+              "label": "开放全部边境口岸"
+            },
+            {
+              "id": "unknown",
+              "label": "不知道／不确定"
+            }
+          ],
+          "correctOptionId": "a",
+          "unknownOptionId": "unknown",
+          "sourceUrl": "https://apnews.com/article/india-pakistan-missile-photos-b2cb579a2320b52aabe07a47f748dc19",
+          "sourcePublishedDate": "2025-05-10"
+        },
+        {
+          "id": "air_india_crash",
+          "eventDate": "2025-06-12",
+          "category": "society",
+          "prompt": "2025 年 6 月，一架从艾哈迈达巴德起飞的印度航空客机发生了什么事故？",
+          "options": [
+            {
+              "id": "c",
+              "label": "与另一架客机空中相撞"
+            },
+            {
+              "id": "b",
+              "label": "被劫持迫降"
+            },
+            {
+              "id": "a",
+              "label": "起飞后坠毁"
+            },
+            {
+              "id": "unknown",
+              "label": "不知道／不确定"
+            }
+          ],
+          "correctOptionId": "a",
+          "unknownOptionId": "unknown",
+          "sourceUrl": "https://apnews.com/article/india-plane-crash-cad8dad5cd0e92795b03d357404af5f8",
+          "sourcePublishedDate": "2025-06-12"
+        }
+      ],
+      "next": {
+        "correct": "result_011",
+        "incorrect": "checkpoint_2025_winter"
       }
     },
     "checkpoint_2025_summer": {
@@ -387,7 +579,7 @@
       ],
       "next": {
         "correct": "checkpoint_2026_spring",
-        "incorrect": "checkpoint_2024_summer"
+        "incorrect": "checkpoint_2024_autumn"
       }
     },
     "checkpoint_2025_winter": {
@@ -482,8 +674,104 @@
         }
       ],
       "next": {
-        "correct": "result_011",
-        "incorrect": "result_010"
+        "correct": "result_0101",
+        "incorrect": "result_0100"
+      }
+    },
+    "checkpoint_2026_autumn": {
+      "type": "checkpoint",
+      "id": "checkpoint_2026_autumn",
+      "date": "2026-10-09",
+      "threshold": 2,
+      "questions": [
+        {
+          "id": "santiago_floods_2026",
+          "eventDate": "2026-10-08",
+          "category": "society",
+          "prompt": "2026 年 10 月，智利首都圣地亚哥遭遇了什么灾害？",
+          "options": [
+            {
+              "id": "b",
+              "label": "大规模森林火灾"
+            },
+            {
+              "id": "a",
+              "label": "暴雨引发洪水与泥石流"
+            },
+            {
+              "id": "c",
+              "label": "强烈地震"
+            },
+            {
+              "id": "unknown",
+              "label": "不知道／不确定"
+            }
+          ],
+          "correctOptionId": "a",
+          "unknownOptionId": "unknown",
+          "sourceUrl": "https://apnews.com/article/chile-el-nino-weather-landslide-santiago-7f44b0f7271741c686c5a918a6581997",
+          "sourcePublishedDate": "2026-10-09"
+        },
+        {
+          "id": "panama_earthquake_2026",
+          "eventDate": "2026-10-09",
+          "category": "society",
+          "prompt": "2026 年 10 月，巴拿马发生了哪种重大自然灾害？",
+          "options": [
+            {
+              "id": "b",
+              "label": "大型火山喷发"
+            },
+            {
+              "id": "c",
+              "label": "飓风登陆"
+            },
+            {
+              "id": "a",
+              "label": "强烈地震"
+            },
+            {
+              "id": "unknown",
+              "label": "不知道／不确定"
+            }
+          ],
+          "correctOptionId": "a",
+          "unknownOptionId": "unknown",
+          "sourceUrl": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/executive",
+          "sourcePublishedDate": "2026-10-09"
+        },
+        {
+          "id": "france_protests_2026",
+          "eventDate": "2026-10-17",
+          "category": "society",
+          "prompt": "2026 年 10 月，法国多地发生大规模示威，主要抗议什么？",
+          "options": [
+            {
+              "id": "a",
+              "label": "生活成本上涨与学校条件恶化"
+            },
+            {
+              "id": "c",
+              "label": "食品进口禁令"
+            },
+            {
+              "id": "b",
+              "label": "边境全面关闭"
+            },
+            {
+              "id": "unknown",
+              "label": "不知道／不确定"
+            }
+          ],
+          "correctOptionId": "a",
+          "unknownOptionId": "unknown",
+          "sourceUrl": "https://apnews.com/article/france-school-protests-yellow-vest-44b9d3ba91ffad4029f975dced7e31cb",
+          "sourcePublishedDate": "2026-10-17"
+        }
+      ],
+      "next": {
+        "correct": "result_111",
+        "incorrect": "checkpoint_2026_summer"
       }
     },
     "checkpoint_2026_spring": {
@@ -578,8 +866,8 @@
         }
       ],
       "next": {
-        "correct": "checkpoint_2026_summer",
-        "incorrect": "checkpoint_2025_autumn"
+        "correct": "checkpoint_2026_autumn",
+        "incorrect": "checkpoint_2026_winter"
       }
     },
     "checkpoint_2026_summer": {
@@ -674,18 +962,114 @@
         }
       ],
       "next": {
-        "correct": "result_111",
-        "incorrect": "result_110"
+        "correct": "result_1101",
+        "incorrect": "result_1100"
       }
     },
-    "result_000": {
+    "checkpoint_2026_winter": {
+      "type": "checkpoint",
+      "id": "checkpoint_2026_winter",
+      "date": "2026-02-17",
+      "threshold": 2,
+      "questions": [
+        {
+          "id": "olympic_figure_skating",
+          "eventDate": "2026-02-13",
+          "category": "society",
+          "prompt": "2026 年冬奥会男子花样滑冰金牌由哪位选手获得？",
+          "options": [
+            {
+              "id": "b",
+              "label": "伊利亚·马里宁"
+            },
+            {
+              "id": "a",
+              "label": "米哈伊尔·沙伊多罗夫"
+            },
+            {
+              "id": "c",
+              "label": "键山优真"
+            },
+            {
+              "id": "unknown",
+              "label": "不知道／不确定"
+            }
+          ],
+          "correctOptionId": "a",
+          "unknownOptionId": "unknown",
+          "sourceUrl": "https://apnews.com/article/milan-cortina-olympics-figure-skating-malinin-9701617ebaad752e616f88259e33b6b3",
+          "sourcePublishedDate": "2026-02-13"
+        },
+        {
+          "id": "bangladesh_pm_2026",
+          "eventDate": "2026-02-17",
+          "category": "society",
+          "prompt": "2026 年 2 月，孟加拉国新任总理是谁？",
+          "options": [
+            {
+              "id": "a",
+              "label": "塔里克·拉赫曼"
+            },
+            {
+              "id": "c",
+              "label": "谢赫·哈西娜"
+            },
+            {
+              "id": "b",
+              "label": "穆罕默德·尤努斯"
+            },
+            {
+              "id": "unknown",
+              "label": "不知道／不确定"
+            }
+          ],
+          "correctOptionId": "a",
+          "unknownOptionId": "unknown",
+          "sourceUrl": "https://www.bssnews.net/news-flash/361790",
+          "sourcePublishedDate": "2026-02-17"
+        },
+        {
+          "id": "iran_leader_2026",
+          "eventDate": "2026-02-28",
+          "category": "society",
+          "prompt": "2026 年 2 月底，伊朗最高领袖阿里·哈梅内伊发生了什么？",
+          "options": [
+            {
+              "id": "b",
+              "label": "宣布辞职"
+            },
+            {
+              "id": "c",
+              "label": "被议会弹劾下台"
+            },
+            {
+              "id": "a",
+              "label": "在美以袭击中身亡"
+            },
+            {
+              "id": "unknown",
+              "label": "不知道／不确定"
+            }
+          ],
+          "correctOptionId": "a",
+          "unknownOptionId": "unknown",
+          "sourceUrl": "https://apnews.com/article/iran-us-explosion-tehran-c2f11247d8a66e36929266f2c557a54c",
+          "sourcePublishedDate": "2026-03-01"
+        }
+      ],
+      "next": {
+        "correct": "result_101",
+        "incorrect": "checkpoint_2025_autumn"
+      }
+    },
+    "result_0000": {
       "type": "result",
-      "id": "result_000",
+      "id": "result_0000",
       "range": {
         "from": null,
         "through": "2024-05-09"
       },
-      "candidateCount": 140,
+      "candidateCount": 161,
       "candidates": [
         {
           "provider": "Anthropic",
@@ -849,14 +1233,14 @@
         }
       ]
     },
-    "result_001": {
+    "result_0001": {
       "type": "result",
-      "id": "result_001",
+      "id": "result_0001",
       "range": {
         "from": "2024-05-10",
         "through": "2024-08-04"
       },
-      "candidateCount": 136,
+      "candidateCount": 157,
       "candidates": [
         {
           "provider": "Anthropic",
@@ -1020,14 +1404,14 @@
         }
       ]
     },
-    "result_010": {
+    "result_001": {
       "type": "result",
-      "id": "result_010",
+      "id": "result_001",
       "range": {
         "from": "2024-08-05",
-        "through": "2025-01-19"
+        "through": "2024-11-05"
       },
-      "candidateCount": 145,
+      "candidateCount": 151,
       "candidates": [
         {
           "provider": "Anthropic",
@@ -1150,6 +1534,57 @@
           "fit": 0.871
         },
         {
+          "provider": "DeepSeek",
+          "modelId": "deepseek-r1-distill-qwen-1.5b",
+          "cutoff": "<2025-02-06",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+          "fit": 0.5156
+        },
+        {
+          "provider": "DeepSeek",
+          "modelId": "deepseek-r1-distill-qwen-14b",
+          "cutoff": "<2025-02-06",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+          "fit": 0.5156
+        },
+        {
+          "provider": "DeepSeek",
+          "modelId": "deepseek-r1-distill-qwen-32b",
+          "cutoff": "<2025-02-06",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+          "fit": 0.5156
+        },
+        {
+          "provider": "DeepSeek",
+          "modelId": "deepseek-r1-distill-qwen-7b",
+          "cutoff": "<2025-02-06",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+          "fit": 0.5156
+        },
+        {
+          "provider": "Alibaba",
+          "modelId": "qwen-plus-2025-01-25",
+          "cutoff": "<2025-02-04",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+          "fit": 0.5103
+        }
+      ]
+    },
+    "result_0100": {
+      "type": "result",
+      "id": "result_0100",
+      "range": {
+        "from": "2024-11-06",
+        "through": "2025-01-19"
+      },
+      "candidateCount": 142,
+      "candidates": [
+        {
           "provider": "Anthropic",
           "modelId": "claude-opus-4-1-20250805",
           "cutoff": ">2024-12-31&<2025-02-01",
@@ -1188,17 +1623,137 @@
           "basis": "official_knowledge_cutoff_month",
           "evidenceUrl": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash",
           "fit": 0.6129
+        },
+        {
+          "provider": "Google",
+          "modelId": "gemini-2.5-flash-lite",
+          "cutoff": ">2024-12-31&<2025-02-01",
+          "basis": "official_knowledge_cutoff_month",
+          "evidenceUrl": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-lite",
+          "fit": 0.6129
+        },
+        {
+          "provider": "Google",
+          "modelId": "gemini-2.5-pro",
+          "cutoff": ">2024-12-31&<2025-02-01",
+          "basis": "official_knowledge_cutoff_month",
+          "evidenceUrl": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-pro",
+          "fit": 0.6129
+        },
+        {
+          "provider": "Google",
+          "modelId": "gemini-3-flash-preview",
+          "cutoff": ">2024-12-31&<2025-02-01",
+          "basis": "official_knowledge_cutoff_month",
+          "evidenceUrl": "https://ai.google.dev/gemini-api/docs/gemini-3",
+          "fit": 0.6129
+        },
+        {
+          "provider": "Google",
+          "modelId": "gemini-3-pro-preview",
+          "cutoff": ">2024-12-31&<2025-02-01",
+          "basis": "official_knowledge_cutoff_month",
+          "evidenceUrl": "https://ai.google.dev/gemini-api/docs/gemini-3",
+          "fit": 0.6129
+        },
+        {
+          "provider": "Google",
+          "modelId": "gemini-3.1-flash-image-preview",
+          "cutoff": ">2024-12-31&<2025-02-01",
+          "basis": "official_knowledge_cutoff_month",
+          "evidenceUrl": "https://ai.google.dev/gemini-api/docs/gemini-3",
+          "fit": 0.6129
+        },
+        {
+          "provider": "Google",
+          "modelId": "gemini-3.1-flash-lite",
+          "cutoff": ">2024-12-31&<2025-02-01",
+          "basis": "official_knowledge_cutoff_month",
+          "evidenceUrl": "https://ai.google.dev/gemini-api/docs/gemini-3",
+          "fit": 0.6129
+        },
+        {
+          "provider": "Google",
+          "modelId": "gemini-3.1-pro-preview",
+          "cutoff": ">2024-12-31&<2025-02-01",
+          "basis": "official_knowledge_cutoff_month",
+          "evidenceUrl": "https://ai.google.dev/gemini-api/docs/gemini-3",
+          "fit": 0.6129
+        },
+        {
+          "provider": "Google",
+          "modelId": "gemini-3.5-flash",
+          "cutoff": ">2024-12-31&<2025-02-01",
+          "basis": "official_knowledge_cutoff_month",
+          "evidenceUrl": "https://ai.google.dev/gemini-api/docs/gemini-3",
+          "fit": 0.6129
+        },
+        {
+          "provider": "Google",
+          "modelId": "gemini-3.5-flash-lite",
+          "cutoff": ">2024-12-31&<2025-02-01",
+          "basis": "official_knowledge_cutoff_month",
+          "evidenceUrl": "https://ai.google.dev/gemini-api/docs/gemini-3",
+          "fit": 0.6129
+        },
+        {
+          "provider": "Google",
+          "modelId": "gemini-3.6-flash",
+          "cutoff": ">2024-12-31&<2025-02-01",
+          "basis": "official_knowledge_cutoff_month",
+          "evidenceUrl": "https://ai.google.dev/gemini-api/docs/gemini-3",
+          "fit": 0.6129
+        },
+        {
+          "provider": "Xiaomi",
+          "modelId": "mimo-7b-rl",
+          "cutoff": "<2025-05-13",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://arxiv.org/abs/2505.07608",
+          "fit": 0.55
+        },
+        {
+          "provider": "Alibaba",
+          "modelId": "qwen-plus-2025-04-28",
+          "cutoff": "<2025-04-30",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+          "fit": 0.513
+        },
+        {
+          "provider": "Alibaba",
+          "modelId": "qwen3-0.6b",
+          "cutoff": "<2025-04-30",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://qwenlm.github.io/blog/qwen3/",
+          "fit": 0.513
+        },
+        {
+          "provider": "Alibaba",
+          "modelId": "qwen3-1.7b",
+          "cutoff": "<2025-04-30",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://qwenlm.github.io/blog/qwen3/",
+          "fit": 0.513
+        },
+        {
+          "provider": "Alibaba",
+          "modelId": "qwen3-14b",
+          "cutoff": "<2025-04-30",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://qwenlm.github.io/blog/qwen3/",
+          "fit": 0.513
         }
       ]
     },
-    "result_011": {
+    "result_0101": {
       "type": "result",
-      "id": "result_011",
+      "id": "result_0101",
       "range": {
         "from": "2025-01-20",
-        "through": "2025-08-06"
+        "through": "2025-05-09"
       },
-      "candidateCount": 122,
+      "candidateCount": 141,
       "candidates": [
         {
           "provider": "Anthropic",
@@ -1209,21 +1764,168 @@
           "fit": 1.0
         },
         {
-          "provider": "Anthropic",
-          "modelId": "claude-opus-4-5-20251101",
-          "cutoff": ">2025-04-30&<2025-06-01",
-          "basis": "official_reliable_knowledge_cutoff",
-          "evidenceUrl": "https://platform.claude.com/docs/en/models/opus-4-5/overview",
-          "fit": 1.0
+          "provider": "Zhipu",
+          "modelId": "glm-4.5",
+          "cutoff": "<2025-08-07",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+          "fit": 0.5323
         },
         {
-          "provider": "Anthropic",
-          "modelId": "claude-opus-4-6",
-          "cutoff": ">2025-04-30&<2025-06-01",
-          "basis": "official_reliable_knowledge_cutoff",
-          "evidenceUrl": "https://platform.claude.com/docs/en/models/opus-4-6/overview",
-          "fit": 1.0
+          "provider": "Zhipu",
+          "modelId": "glm-4.5-air",
+          "cutoff": "<2025-08-07",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+          "fit": 0.5323
         },
+        {
+          "provider": "Alibaba",
+          "modelId": "qwen-flash-2025-07-28",
+          "cutoff": "<2025-08-06",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+          "fit": 0.5294
+        },
+        {
+          "provider": "Alibaba",
+          "modelId": "qwen3-coder-flash-2025-07-28",
+          "cutoff": "<2025-08-06",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+          "fit": 0.5294
+        },
+        {
+          "provider": "DeepSeek",
+          "modelId": "deepseek-v3.1",
+          "cutoff": "<2025-08-22",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://www.deepseek.com/en/news/deepseek-v3-1/",
+          "fit": 0.5238
+        },
+        {
+          "provider": "Alibaba",
+          "modelId": "qwen3-coder-30b-a3b-instruct",
+          "cutoff": "<2025-08-01",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+          "fit": 0.5156
+        },
+        {
+          "provider": "Alibaba",
+          "modelId": "qwen-plus-2025-07-28",
+          "cutoff": "<2025-07-31",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+          "fit": 0.513
+        },
+        {
+          "provider": "Alibaba",
+          "modelId": "qwen3-30b-a3b-thinking-2507",
+          "cutoff": "<2025-07-31",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+          "fit": 0.513
+        },
+        {
+          "provider": "Alibaba",
+          "modelId": "qwen3-30b-a3b-instruct-2507",
+          "cutoff": "<2025-07-30",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+          "fit": 0.5103
+        },
+        {
+          "provider": "Alibaba",
+          "modelId": "qwen3-235b-a22b-thinking-2507",
+          "cutoff": "<2025-07-26",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+          "fit": 0.5
+        },
+        {
+          "provider": "Alibaba",
+          "modelId": "qwen3-235b-a22b-instruct-2507",
+          "cutoff": "<2025-07-23",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+          "fit": 0.4925
+        },
+        {
+          "provider": "Alibaba",
+          "modelId": "qwen3-coder-480b-a35b-instruct",
+          "cutoff": "<2025-07-23",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+          "fit": 0.4925
+        },
+        {
+          "provider": "Alibaba",
+          "modelId": "qwen3-coder-plus-2025-07-22",
+          "cutoff": "<2025-07-23",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+          "fit": 0.4925
+        },
+        {
+          "provider": "Alibaba",
+          "modelId": "qwen3-max-preview",
+          "cutoff": "<2025-09-06",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+          "fit": 0.4853
+        },
+        {
+          "provider": "Alibaba",
+          "modelId": "qwen-plus-2025-07-14",
+          "cutoff": "<2025-07-17",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+          "fit": 0.4783
+        },
+        {
+          "provider": "Moonshot",
+          "modelId": "kimi-k2-base",
+          "cutoff": "<2025-07-17",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+          "fit": 0.4783
+        },
+        {
+          "provider": "Moonshot",
+          "modelId": "kimi-k2-instruct",
+          "cutoff": "<2025-07-17",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+          "fit": 0.4783
+        },
+        {
+          "provider": "Alibaba",
+          "modelId": "qwen-plus-2025-09-11",
+          "cutoff": "<2025-09-12",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+          "fit": 0.4714
+        },
+        {
+          "provider": "Alibaba",
+          "modelId": "qwen3-next-80b-a3b-instruct",
+          "cutoff": "<2025-09-12",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+          "fit": 0.4714
+        }
+      ]
+    },
+    "result_011": {
+      "type": "result",
+      "id": "result_011",
+      "range": {
+        "from": "2025-05-10",
+        "through": "2025-08-06"
+      },
+      "candidateCount": 110,
+      "candidates": [
         {
           "provider": "Google",
           "modelId": "gemini-2.5-flash-image",
@@ -1233,116 +1935,116 @@
           "fit": 1.0
         },
         {
-          "provider": "Alibaba",
-          "modelId": "qwen3-coder-plus-2025-09-23",
-          "cutoff": "<2025-09-24",
-          "basis": "release_date_upper_bound",
-          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
-          "fit": 0.541
+          "provider": "Anthropic",
+          "modelId": "claude-opus-4-5-20251101",
+          "cutoff": ">2025-04-30&<2025-06-01",
+          "basis": "official_reliable_knowledge_cutoff",
+          "evidenceUrl": "https://platform.claude.com/docs/en/models/opus-4-5/overview",
+          "fit": 0.7097
+        },
+        {
+          "provider": "Anthropic",
+          "modelId": "claude-opus-4-6",
+          "cutoff": ">2025-04-30&<2025-06-01",
+          "basis": "official_reliable_knowledge_cutoff",
+          "evidenceUrl": "https://platform.claude.com/docs/en/models/opus-4-6/overview",
+          "fit": 0.7097
         },
         {
           "provider": "Alibaba",
-          "modelId": "qwen3-max-2025-09-23",
-          "cutoff": "<2025-09-24",
+          "modelId": "qwen-vl-ocr-2025-11-20",
+          "cutoff": "<2025-11-21",
           "basis": "release_date_upper_bound",
           "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
-          "fit": 0.541
+          "fit": 0.55
+        },
+        {
+          "provider": "Moonshot",
+          "modelId": "kimi-k2-thinking",
+          "cutoff": "<2025-11-11",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+          "fit": 0.5211
         },
         {
           "provider": "Alibaba",
-          "modelId": "qwen3-vl-235b-a22b-instruct",
-          "cutoff": "<2025-09-24",
+          "modelId": "qwen-plus-2025-12-01",
+          "cutoff": "<2025-12-02",
           "basis": "release_date_upper_bound",
           "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
-          "fit": 0.541
-        },
-        {
-          "provider": "Alibaba",
-          "modelId": "qwen3-vl-235b-a22b-thinking",
-          "cutoff": "<2025-09-24",
-          "basis": "release_date_upper_bound",
-          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
-          "fit": 0.541
-        },
-        {
-          "provider": "Alibaba",
-          "modelId": "qwen3-vl-plus-2025-09-23",
-          "cutoff": "<2025-09-24",
-          "basis": "release_date_upper_bound",
-          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
-          "fit": 0.541
+          "fit": 0.5183
         },
         {
           "provider": "DeepSeek",
-          "modelId": "deepseek-v3.2-exp",
-          "cutoff": "<2025-09-30",
+          "modelId": "deepseek-v3.2",
+          "cutoff": "<2025-12-02",
           "basis": "release_date_upper_bound",
-          "evidenceUrl": "https://www.deepseek.com/en/news/v3-2-exp/",
-          "fit": 0.541
+          "evidenceUrl": "https://www.deepseek.com/en/news/deepseek-v3-2/",
+          "fit": 0.5183
+        },
+        {
+          "provider": "MiniMax",
+          "modelId": "minimax-m2",
+          "cutoff": "<2025-10-28",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://www.minimax.io/news/minimax-m2",
+          "fit": 0.4853
+        },
+        {
+          "provider": "Xiaomi",
+          "modelId": "mimo-v2-flash",
+          "cutoff": "<2025-12-17",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://mimo.mi.com/docs/en-US/updates/model",
+          "fit": 0.4806
         },
         {
           "provider": "Alibaba",
-          "modelId": "qwen3-vl-30b-a3b-instruct",
-          "cutoff": "<2025-10-01",
+          "modelId": "qwen3-vl-plus-2025-12-19",
+          "cutoff": "<2025-12-20",
           "basis": "release_date_upper_bound",
           "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
-          "fit": 0.538
+          "fit": 0.4737
         },
         {
           "provider": "Alibaba",
-          "modelId": "qwen3-vl-30b-a3b-thinking",
-          "cutoff": "<2025-10-01",
+          "modelId": "qwen3-vl-32b-instruct",
+          "cutoff": "<2025-10-22",
           "basis": "release_date_upper_bound",
           "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
-          "fit": 0.538
+          "fit": 0.4714
         },
         {
           "provider": "Alibaba",
-          "modelId": "qwen3-vl-8b-instruct",
-          "cutoff": "<2025-10-01",
+          "modelId": "qwen3-vl-32b-thinking",
+          "cutoff": "<2025-10-22",
           "basis": "release_date_upper_bound",
           "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
-          "fit": 0.538
+          "fit": 0.4714
         },
         {
-          "provider": "Alibaba",
-          "modelId": "qwen3-vl-8b-thinking",
-          "cutoff": "<2025-10-01",
+          "provider": "Zhipu",
+          "modelId": "glm-4.6",
+          "cutoff": "<2025-10-22",
           "basis": "release_date_upper_bound",
           "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
-          "fit": 0.538
+          "fit": 0.4714
         },
         {
-          "provider": "Alibaba",
-          "modelId": "qwen-vl-ocr-2025-08-28",
-          "cutoff": "<2025-09-14",
+          "provider": "MiniMax",
+          "modelId": "minimax-m2.1",
+          "cutoff": "<2025-12-24",
           "basis": "release_date_upper_bound",
-          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
-          "fit": 0.513
+          "evidenceUrl": "https://www.minimax.io/news/minimax-m21",
+          "fit": 0.4648
         },
         {
-          "provider": "Alibaba",
-          "modelId": "qwen-plus-2025-09-11",
-          "cutoff": "<2025-09-12",
+          "provider": "Zhipu",
+          "modelId": "glm-4.7",
+          "cutoff": "<2025-12-26",
           "basis": "release_date_upper_bound",
           "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
-          "fit": 0.5077
-        },
-        {
-          "provider": "Alibaba",
-          "modelId": "qwen3-next-80b-a3b-instruct",
-          "cutoff": "<2025-09-12",
-          "basis": "release_date_upper_bound",
-          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
-          "fit": 0.5077
-        },
-        {
-          "provider": "Alibaba",
-          "modelId": "qwen3-next-80b-a3b-thinking",
-          "cutoff": "<2025-09-12",
-          "basis": "release_date_upper_bound",
-          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
-          "fit": 0.5077
+          "fit": 0.4605
         },
         {
           "provider": "Alibaba",
@@ -1350,26 +2052,50 @@
           "cutoff": "<2025-10-16",
           "basis": "release_date_upper_bound",
           "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
-          "fit": 0.4975
+          "fit": 0.4583
         },
         {
           "provider": "Alibaba",
-          "modelId": "qwen3-max-preview",
-          "cutoff": "<2025-09-06",
+          "modelId": "qwen3-vl-30b-a3b-instruct",
+          "cutoff": "<2025-10-01",
           "basis": "release_date_upper_bound",
           "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
-          "fit": 0.4925
+          "fit": 0.4286
+        },
+        {
+          "provider": "Alibaba",
+          "modelId": "qwen3-vl-30b-a3b-thinking",
+          "cutoff": "<2025-10-01",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+          "fit": 0.4286
+        },
+        {
+          "provider": "Alibaba",
+          "modelId": "qwen3-vl-8b-instruct",
+          "cutoff": "<2025-10-01",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+          "fit": 0.4286
+        },
+        {
+          "provider": "Alibaba",
+          "modelId": "qwen3-vl-8b-thinking",
+          "cutoff": "<2025-10-01",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+          "fit": 0.4286
         }
       ]
     },
-    "result_100": {
+    "result_1000": {
       "type": "result",
-      "id": "result_100",
+      "id": "result_1000",
       "range": {
         "from": "2025-08-07",
         "through": "2025-11-19"
       },
-      "candidateCount": 80,
+      "candidateCount": 99,
       "candidates": [
         {
           "provider": "OpenAI",
@@ -1533,14 +2259,14 @@
         }
       ]
     },
-    "result_101": {
+    "result_1001": {
       "type": "result",
-      "id": "result_101",
+      "id": "result_1001",
       "range": {
         "from": "2025-11-20",
-        "through": "2026-05-16"
+        "through": "2026-02-16"
       },
-      "candidateCount": 62,
+      "candidateCount": 76,
       "candidates": [
         {
           "provider": "Anthropic",
@@ -1623,6 +2349,97 @@
           "fit": 1.0
         },
         {
+          "provider": "Alibaba",
+          "modelId": "qwen3.7-plus-2026-05-26",
+          "cutoff": "<2026-06-02",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+          "fit": 0.547
+        },
+        {
+          "provider": "MiniMax",
+          "modelId": "minimax-m3",
+          "cutoff": "<2026-06-02",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://www.minimax.io/blog/minimax-m3",
+          "fit": 0.547
+        },
+        {
+          "provider": "Alibaba",
+          "modelId": "qwen3.7-max-2026-06-08",
+          "cutoff": "<2026-06-10",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+          "fit": 0.5294
+        },
+        {
+          "provider": "Alibaba",
+          "modelId": "qwen3.7-max-2026-05-20",
+          "cutoff": "<2026-05-22",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+          "fit": 0.5156
+        },
+        {
+          "provider": "Alibaba",
+          "modelId": "qwen3.7-max-2026-05-17",
+          "cutoff": "<2026-05-21",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+          "fit": 0.513
+        },
+        {
+          "provider": "Moonshot",
+          "modelId": "kimi-k2.7-code",
+          "cutoff": "<2026-06-16",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+          "fit": 0.513
+        },
+        {
+          "provider": "Alibaba",
+          "modelId": "qwen3.5-ocr",
+          "cutoff": "<2026-06-17",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+          "fit": 0.5103
+        },
+        {
+          "provider": "Zhipu",
+          "modelId": "glm-5.2",
+          "cutoff": "<2026-06-17",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+          "fit": 0.5103
+        },
+        {
+          "provider": "Baidu",
+          "modelId": "ernie-5.1",
+          "cutoff": "<2026-05-10",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://ernie.baidu.com/blog/posts/ernie-5.1-0508-release/",
+          "fit": 0.4853
+        },
+        {
+          "provider": "Zhipu",
+          "modelId": "glm-5.2-fast-preview",
+          "cutoff": "<2026-07-10",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+          "fit": 0.4562
+        }
+      ]
+    },
+    "result_101": {
+      "type": "result",
+      "id": "result_101",
+      "range": {
+        "from": "2026-02-17",
+        "through": "2026-05-16"
+      },
+      "candidateCount": 55,
+      "candidates": [
+        {
           "provider": "OpenAI",
           "modelId": "gpt-6-astra",
           "cutoff": "=2026-04-30",
@@ -1648,19 +2465,43 @@
         },
         {
           "provider": "Alibaba",
-          "modelId": "qwen3.7-flash-2026-07-15",
-          "cutoff": "<2026-07-22",
+          "modelId": "qwen3.8-max-0902",
+          "cutoff": "<2026-09-03",
           "basis": "release_date_upper_bound",
           "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
-          "fit": 0.5351
+          "fit": 0.541
+        },
+        {
+          "provider": "Alibaba",
+          "modelId": "qwen3.8-flash",
+          "cutoff": "<2026-08-27",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+          "fit": 0.538
         },
         {
           "provider": "Zhipu",
-          "modelId": "glm-5.2-fast-preview",
-          "cutoff": "<2026-07-10",
+          "modelId": "glm-5.3-flash",
+          "cutoff": "<2026-08-27",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://z.ai/blog/glm-5.3-flash",
+          "fit": 0.538
+        },
+        {
+          "provider": "DeepSeek",
+          "modelId": "deepseek-v4.1-flash",
+          "cutoff": "<2026-09-11",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://www.deepseek.com/en/news/deepseek-v4-1-flash/",
+          "fit": 0.5183
+        },
+        {
+          "provider": "Moonshot",
+          "modelId": "kimi-k3",
+          "cutoff": "<2026-08-20",
           "basis": "release_date_upper_bound",
           "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
-          "fit": 0.5294
+          "fit": 0.5183
         },
         {
           "provider": "Anthropic",
@@ -1671,28 +2512,12 @@
           "fit": 0.5161
         },
         {
-          "provider": "DeepSeek",
-          "modelId": "deepseek-v4-flash-0731",
-          "cutoff": "<2026-08-02",
-          "basis": "release_date_upper_bound",
-          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
-          "fit": 0.5051
-        },
-        {
           "provider": "Alibaba",
-          "modelId": "qwen3.8-max",
-          "cutoff": "<2026-08-03",
+          "modelId": "qwen3.8-27b",
+          "cutoff": "<2026-08-18",
           "basis": "release_date_upper_bound",
           "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
-          "fit": 0.5025
-        },
-        {
-          "provider": "Alibaba",
-          "modelId": "qwen3.8-2.4t-a95b",
-          "cutoff": "<2026-08-13",
-          "basis": "release_date_upper_bound",
-          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
-          "fit": 0.4783
+          "fit": 0.513
         },
         {
           "provider": "DeepSeek",
@@ -1700,18 +2525,90 @@
           "cutoff": "<2026-08-15",
           "basis": "release_date_upper_bound",
           "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+          "fit": 0.5051
+        },
+        {
+          "provider": "TypeSafe",
+          "modelId": "jev-1.0",
+          "cutoff": "<2026-09-16",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+          "fit": 0.5051
+        },
+        {
+          "provider": "Zhipu",
+          "modelId": "glm-5.3",
+          "cutoff": "<2026-08-15",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://z.ai/blog/glm-5.3",
+          "fit": 0.5051
+        },
+        {
+          "provider": "Alibaba",
+          "modelId": "qwen3.8-2.4t-a95b",
+          "cutoff": "<2026-08-13",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+          "fit": 0.5
+        },
+        {
+          "provider": "Alibaba",
+          "modelId": "qwen3.8-omni-flash",
+          "cutoff": "<2026-09-18",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+          "fit": 0.5
+        },
+        {
+          "provider": "Xiaomi",
+          "modelId": "mimo-v2.6-flash",
+          "cutoff": "<2026-09-23",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://mimo.mi.com/docs/en-US/updates/model",
+          "fit": 0.4877
+        },
+        {
+          "provider": "Xiaomi",
+          "modelId": "mimo-v2.6-pro",
+          "cutoff": "<2026-09-23",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://mimo.mi.com/docs/en-US/updates/model",
+          "fit": 0.4877
+        },
+        {
+          "provider": "Xiaomi",
+          "modelId": "mimo-v2.6-pro-ultraspeed",
+          "cutoff": "<2026-09-23",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://mimo.mi.com/docs/en-US/updates/model",
+          "fit": 0.4877
+        },
+        {
+          "provider": "Alibaba",
+          "modelId": "qwen3.8-max",
+          "cutoff": "<2026-08-03",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+          "fit": 0.476
+        },
+        {
+          "provider": "DeepSeek",
+          "modelId": "deepseek-v4-flash-0731",
+          "cutoff": "<2026-08-02",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
           "fit": 0.4737
         }
       ]
     },
-    "result_110": {
+    "result_1100": {
       "type": "result",
-      "id": "result_110",
+      "id": "result_1100",
       "range": {
         "from": "2026-05-17",
         "through": "2026-08-09"
       },
-      "candidateCount": 25,
+      "candidateCount": 33,
       "candidates": [
         {
           "provider": "Anthropic",
@@ -1762,6 +2659,54 @@
           "fit": 0.4839
         },
         {
+          "provider": "MiniMax",
+          "modelId": "minimax-m3.1-flash",
+          "cutoff": "<2026-10-20",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://www.minimax.io/blog/minimax-m31f",
+          "fit": 0.4562
+        },
+        {
+          "provider": "Xiaomi",
+          "modelId": "mimo-v2.6-flash",
+          "cutoff": "<2026-09-23",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://mimo.mi.com/docs/en-US/updates/model",
+          "fit": 0.4057
+        },
+        {
+          "provider": "Xiaomi",
+          "modelId": "mimo-v2.6-pro",
+          "cutoff": "<2026-09-23",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://mimo.mi.com/docs/en-US/updates/model",
+          "fit": 0.4057
+        },
+        {
+          "provider": "Xiaomi",
+          "modelId": "mimo-v2.6-pro-ultraspeed",
+          "cutoff": "<2026-09-23",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://mimo.mi.com/docs/en-US/updates/model",
+          "fit": 0.4057
+        },
+        {
+          "provider": "Alibaba",
+          "modelId": "qwen3.8-omni-flash",
+          "cutoff": "<2026-09-18",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+          "fit": 0.3976
+        },
+        {
+          "provider": "TypeSafe",
+          "modelId": "jev-1.0",
+          "cutoff": "<2026-09-16",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+          "fit": 0.3944
+        },
+        {
           "provider": "DeepSeek",
           "modelId": "deepseek-v4.1-flash",
           "cutoff": "<2026-09-11",
@@ -1783,6 +2728,14 @@
           "cutoff": "<2026-08-27",
           "basis": "release_date_upper_bound",
           "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+          "fit": 0.3653
+        },
+        {
+          "provider": "Zhipu",
+          "modelId": "glm-5.3-flash",
+          "cutoff": "<2026-08-27",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://z.ai/blog/glm-5.3-flash",
           "fit": 0.3653
         },
         {
@@ -1816,74 +2769,66 @@
           "basis": "release_date_upper_bound",
           "evidenceUrl": "https://z.ai/blog/glm-5.3",
           "fit": 0.3498
-        },
-        {
-          "provider": "Alibaba",
-          "modelId": "qwen3.8-2.4t-a95b",
-          "cutoff": "<2026-08-13",
-          "basis": "release_date_upper_bound",
-          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
-          "fit": 0.3474
-        },
-        {
-          "provider": "Alibaba",
-          "modelId": "qwen3.8-max",
-          "cutoff": "<2026-08-03",
-          "basis": "release_date_upper_bound",
-          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
-          "fit": 0.3402
-        },
-        {
-          "provider": "DeepSeek",
-          "modelId": "deepseek-v4-flash-0731",
-          "cutoff": "<2026-08-02",
-          "basis": "release_date_upper_bound",
-          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
-          "fit": 0.339
-        },
-        {
-          "provider": "Alibaba",
-          "modelId": "qwen3.7-flash-2026-07-15",
-          "cutoff": "<2026-07-22",
-          "basis": "release_date_upper_bound",
-          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
-          "fit": 0.3333
-        },
-        {
-          "provider": "Zhipu",
-          "modelId": "glm-5.2-fast-preview",
-          "cutoff": "<2026-07-10",
-          "basis": "release_date_upper_bound",
-          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
-          "fit": 0.3267
-        },
-        {
-          "provider": "Alibaba",
-          "modelId": "qwen3.5-ocr",
-          "cutoff": "<2026-06-17",
-          "basis": "release_date_upper_bound",
-          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
-          "fit": 0.3143
-        },
-        {
-          "provider": "Moonshot",
-          "modelId": "kimi-k2.7-code",
-          "cutoff": "<2026-06-16",
-          "basis": "release_date_upper_bound",
-          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
-          "fit": 0.3143
         }
       ]
     },
-    "result_111": {
+    "result_1101": {
       "type": "result",
-      "id": "result_111",
+      "id": "result_1101",
       "range": {
         "from": "2026-08-10",
-        "through": null
+        "through": "2026-10-08"
       },
-      "candidateCount": 8,
+      "candidateCount": 15,
       "candidates": [
+        {
+          "provider": "MiniMax",
+          "modelId": "minimax-m3.1-flash",
+          "cutoff": "<2026-10-20",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://www.minimax.io/blog/minimax-m31f",
+          "fit": 0.3426
+        },
+        {
+          "provider": "Xiaomi",
+          "modelId": "mimo-v2.6-flash",
+          "cutoff": "<2026-09-23",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://mimo.mi.com/docs/en-US/updates/model",
+          "fit": 0.3214
+        },
+        {
+          "provider": "Xiaomi",
+          "modelId": "mimo-v2.6-pro",
+          "cutoff": "<2026-09-23",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://mimo.mi.com/docs/en-US/updates/model",
+          "fit": 0.3214
+        },
+        {
+          "provider": "Xiaomi",
+          "modelId": "mimo-v2.6-pro-ultraspeed",
+          "cutoff": "<2026-09-23",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://mimo.mi.com/docs/en-US/updates/model",
+          "fit": 0.3214
+        },
+        {
+          "provider": "Alibaba",
+          "modelId": "qwen3.8-omni-flash",
+          "cutoff": "<2026-09-18",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+          "fit": 0.3183
+        },
+        {
+          "provider": "TypeSafe",
+          "modelId": "jev-1.0",
+          "cutoff": "<2026-09-16",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+          "fit": 0.3173
+        },
         {
           "provider": "DeepSeek",
           "modelId": "deepseek-v4.1-flash",
@@ -1906,6 +2851,14 @@
           "cutoff": "<2026-08-27",
           "basis": "release_date_upper_bound",
           "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+          "fit": 0.3075
+        },
+        {
+          "provider": "Zhipu",
+          "modelId": "glm-5.3-flash",
+          "cutoff": "<2026-08-27",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://z.ai/blog/glm-5.3-flash",
           "fit": 0.3075
         },
         {
@@ -1947,6 +2900,25 @@
           "basis": "release_date_upper_bound",
           "evidenceUrl": "https://help.aliyun.com/zh/model-studio/newly-released-models",
           "fit": 0.3009
+        }
+      ]
+    },
+    "result_111": {
+      "type": "result",
+      "id": "result_111",
+      "range": {
+        "from": "2026-10-09",
+        "through": null
+      },
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "provider": "MiniMax",
+          "modelId": "minimax-m3.1-flash",
+          "cutoff": "<2026-10-20",
+          "basis": "release_date_upper_bound",
+          "evidenceUrl": "https://www.minimax.io/blog/minimax-m31f",
+          "fit": 0.3046
         }
       ]
     }

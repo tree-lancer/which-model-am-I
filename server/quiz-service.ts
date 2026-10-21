@@ -73,6 +73,7 @@ function next(state: State) {
     range: { from: estimate.from, through: estimate.through },
     upperBoundIsSoft: estimate.hasUnknownUpper,
     matches: estimate.matches,
+    undated: estimate.undated,
     excluded: estimate.excluded,
   };
 }
