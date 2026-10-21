@@ -185,29 +185,6 @@ export default function App() {
               </div>
             )}
             {estimate!.matches.length > 10 && <p className="overflow-note">另有 {estimate!.matches.length - 10} 个有公开知识日期依据的候选模型未显示。</p>}
-            {undatedCandidates.length > 0 && (
-              <section className="excluded-section" aria-labelledby="undated-title">
-                <h2 id="undated-title">截止日期未公开的候选 · {estimate!.undated.length}</h2>
-                <div className="candidate-list">
-                  {undatedCandidates.map((candidate) => {
-                    const provider = providerInfo[candidate.provider];
-                    return (
-                      <div className="candidate" key={`${candidate.provider}:${candidate.modelId}`}>
-                        <span className="candidate-rank">?</span>
-                        <span className="provider-icon">{provider ? <img src={provider.icon} alt="" /> : candidate.provider.slice(0, 1)}</span>
-                        <div className="candidate-detail">
-                          <span className="candidate-provider">{provider?.label || candidate.provider}</span>
-                          <strong>{formatModelName(candidate.modelId)}</strong>
-                          <span className="candidate-cutoff">发布日期上界 {candidate.cutoff}</span>
-                        </div>
-                        <a href={candidate.evidenceUrl} target="_blank" rel="noreferrer" aria-label={`查看 ${candidate.modelId} 的证据`}>来源 ↗</a>
-                      </div>
-                    );
-                  })}
-                </div>
-                {estimate!.undated.length > 12 && <p className="overflow-note">另有 {estimate!.undated.length - 12} 个候选未显示。</p>}
-              </section>
-            )}
             {estimate!.excluded.length > 0 && (
               <section className="excluded-section" aria-labelledby="excluded-title">
                 <h2 id="excluded-title">❌ 不可能是哪些模型· {estimate!.excluded.length}</h2>
@@ -228,6 +205,29 @@ export default function App() {
                     );
                   })}
                 </div>
+              </section>
+            )}
+            {undatedCandidates.length > 0 && (
+              <section className="excluded-section" aria-labelledby="undated-title">
+                <h2 id="undated-title">其实也有可能是这些模型...没法排除！ · {estimate!.undated.length}</h2>
+                <div className="candidate-list">
+                  {undatedCandidates.map((candidate) => {
+                    const provider = providerInfo[candidate.provider];
+                    return (
+                      <div className="candidate" key={`${candidate.provider}:${candidate.modelId}`}>
+                        <span className="candidate-rank">?</span>
+                        <span className="provider-icon">{provider ? <img src={provider.icon} alt="" /> : candidate.provider.slice(0, 1)}</span>
+                        <div className="candidate-detail">
+                          <span className="candidate-provider">{provider?.label || candidate.provider}</span>
+                          <strong>{formatModelName(candidate.modelId)}</strong>
+                          <span className="candidate-cutoff">发布日期上界 {candidate.cutoff}</span>
+                        </div>
+                        <a href={candidate.evidenceUrl} target="_blank" rel="noreferrer" aria-label={`查看 ${candidate.modelId} 的证据`}>来源 ↗</a>
+                      </div>
+                    );
+                  })}
+                </div>
+                {estimate!.undated.length > 12 && <p className="overflow-note">另有 {estimate!.undated.length - 12} 个候选未显示。</p>}
               </section>
             )}
             <div className="actions">
